@@ -1,0 +1,143 @@
+require 'erb'
+require 'kramdown'
+require 'yaml'
+require 'pp'
+require 'shellwords'
+
+BASE_DIR      = File.expand_path('../../', __FILE__)
+ASSETS_DIR    = File.join(BASE_DIR, 'assets')
+GENERATOR_DIR = File.join(BASE_DIR, 'generator')
+TEMPLATES_DIR = File.join(GENERATOR_DIR, 'templates')
+
+module Projekttag
+  def template name
+    fname = File.join(TEMPLATES_DIR, name)
+    ["", ".md", ".html", ".html.erb"].each{|ext|
+      tmpl = fname + ext
+      if File.exists? tmpl
+        return File.read(tmpl)
+      end
+    }
+    raise Errno::ENOENT, "Template #{name}[.{md,html,html.erb}] not found."
+  end
+  
+  def config
+    @config ||= YAML.load_file(File.join(GENERATOR_DIR, 'config.yml'))
+  end
+  module_function :config
+  
+  class Page
+    include Projekttag
+    
+    attr_reader :current_page
+
+    def initialize page
+      @current_page = page
+    end
+
+    def link_to anchor, target, options={}
+      options = { :class => nil, :id => nil }.merge(options).to_a.map{|(key,value)|
+        value ? "#{key}=\"#{value}\"" : nil
+      }.compact.join(" ")
+      options << " " unless options =~ /^$/
+      '<a %shref="%s">%s</a>' % [options, target, anchor]
+    end
+    
+    def current_page? target
+      return "active" if current_page == target
+    end
+
+    def menu_links
+      @menu_link ||= config['menu']
+    end
+
+    def render_menu
+      render_template('partials/menu')
+    end
+
+    def render_content
+      render_template(current_page, :markdown => true)
+    end
+    
+    def render
+      render_template('partials/main')
+    end
+    
+    def target_file
+      File.join(BASE_DIR, "#{current_page}.html")
+    end
+    
+  private
+  
+    def render_template t, options={}
+      options = { :minimize => false, :markdown => false }.merge(options)
+      t = template(t)
+      result = ERB.new(t, 0, "").result(binding)
+      result = Kramdown::Document.new(result).to_html if options[:markdown]
+      return result.gsub(/^\s+/, '').gsub(/^$/m, '') if options[:minimize]
+      result
+    end
+  
+  end # class Page
+end # module Projekttag
+
+desc "Creates (copies) the configuration file."
+file("config.yml") {
+  cp "config.yml.example", "config.yml"
+}
+
+$force = false
+
+desc "Generates all targets, if neccessary."
+task(:build => "config.yml") {
+  Dir[File.join(TEMPLATES_DIR, '*.*')].each{|t|
+    page = Projekttag::Page.new File.basename(t).gsub(/\..*?$/, '')
+    
+    if $force || !File.exists?(page.target_file) || File.mtime(t) > File.mtime(page.target_file)
+      puts "Generating #{page.target_file} ..."
+      File.open(page.target_file, 'w') {|f|
+        f.write page.render
+      }
+    end
+  }
+}
+
+namespace(:build) {
+  desc "Generates all targets, forcefully."
+  task(:all) {
+    $force = true
+    Rake::Task[:build].invoke
+  }
+}
+
+desc "Deletes generated data."
+task(:clean) {
+  Dir[File.join(BASE_DIR, '*.html')].each{|file|
+    rm file rescue nil
+  }
+}
+
+desc "Deploys the website."
+task(:deploy => :build) {
+  config = Projekttag.config['deploy']
+  repo = config['repo']
+  host, rdir = config['to'].split(':')
+
+  Dir.chdir(BASE_DIR) {
+    git_push = `git push 2>&1`
+    puts "Could not git-push the current state:\n\n#{git_push}\n\nContinuing with deployment..." unless $? == 0
+  }
+}
+
+namespace(:deploy) {
+  desc "Setup the remote machine by cloning the git repository."
+  task(:setup) {
+    # TODO
+    # ssh remote, unless rdir exists: git clone repo
+  }
+
+  task(:pull_remote) {
+    buf = `ssh #{host} 'cd #{rdir} && git pull' 2>&1`
+    puts "Could not git-pull on the remote machine:\n\n#{buf}" unless $? == 0
+  }
+}

@@ -1,0 +1,15 @@
+body.msie nav a:hover {
+  font-weight: bold;
+}
+
+body.msie nav ul li a {
+  border-top: 2px solid #fff;
+}
+
+body.msie nav ul ul li a {
+  border-top: none;
+}
+
+body.msie nav ul li a.active:hover {
+  color: #A40000;
+}

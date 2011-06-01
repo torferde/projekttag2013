@@ -1,0 +1,18 @@
+<ul>
+  <li>
+    <%= link_to 'Startseite', 'index.html', :class => current_page?('index') %>
+    <ul>
+      <li><%= link_to 'Ablaufplan', 'ablauf.html', :class => current_page?('ablauf') %></li>
+      <li><%= link_to 'Standplan', 'staende.html', :class => current_page?('staende') %></li>
+      <li><%= link_to 'Anfahrt', 'anfahrt.html', :class => current_page?('anfahrt') %></li>
+    </ul>
+  </li>
+  <li>
+    <%= link_to 'Projekte', 'projekte.html', :class => current_page?('projekte') %>
+    <ul>
+      <% menu_links.each_pair do |target, anchor| %>
+        <li><%= link_to anchor, target + '.html', :class => current_page?(target) %></li>
+      <% end %>
+    </ul>
+  </li>
+</ul>

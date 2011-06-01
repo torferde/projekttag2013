@@ -1,0 +1,15 @@
+menu:
+  apollo13: Apollo 13
+  bass: BASS
+  b-human: B-Human
+  fidius: FIDIUS
+  kibo: Kibo
+  qbit: QBit
+  radau: RADAU
+  sahara: SAHARA
+  smart-energy: Smart Energy
+  spatial: Spatial
+  virtual-logistic-lab: Virtual Logistic Lab
+deploy:
+  repo: git@github.com:USER/PROJECT.git # read-only
+  to: USER@HOST:PATH # SSH, needs write access
