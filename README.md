@@ -19,7 +19,7 @@ sicherheitskritisch.
 
 Nur in aller Kürze:
 
-1. Generieren der Webseite
+- Generieren der Webseite
 
   ```
   ~$  git clone git://github.com/dmke/pt11web.git
@@ -28,7 +28,7 @@ Nur in aller Kürze:
   ~/pt11web/generator$  open ../index.html
   ```
 
-2. Deployment
+- Deployment
 
   ```
   ~/pt11web/generator$  $EDITOR config.yml # setup deploy/repo, deploy/to
