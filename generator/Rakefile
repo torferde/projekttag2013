@@ -138,10 +138,7 @@ namespace(:deploy) {
 
   task(:pull_remote) {
     host, rdir = Projekttag.config['deploy']['to'].split(':')
-    
-    cmd = "ssh #{host} 'cd #{rdir} && git pull' 2>&1"
-    puts cmd
-    buf = `#{cmd}`
+    buf = `ssh #{host} 'cd #{rdir} && git pull' 2>&1`
     puts "Could not git-pull on the remote machine:\n\n#{buf}" unless $? == 0
   }
 }
