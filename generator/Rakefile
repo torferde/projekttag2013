@@ -118,7 +118,7 @@ task(:clean) {
 desc "Deploys the website."
 task(:deploy => :build) {
   config = Projekttag.config['deploy']
-  repo = config['repo']
+  repo = config['push-repo']
 
   Dir.chdir(BASE_DIR) {
     git_push = `git push 2>&1`
@@ -130,8 +130,13 @@ task(:deploy => :build) {
 namespace(:deploy) {
   desc "Setup the remote machine by cloning the git repository."
   task(:setup) {
-    # TODO
-    # ssh remote, unless rdir exists: git clone repo
+    repo = Projekttag.config['deploy']['pull-repo']
+    host, rdir = Projekttag.config['deploy']['to'].split(':')
+    ssh_check_rdir = "ssh #{host} '[ ! -d #{rdir} ] && mkdir #{rdir}'"
+    ssh_check_repo = "ssh #{host} '[ ! -d #{File.join(rdir, '.git')} ] && cd #{rdir} && git clone #{repo} .'"
+    `#{ssh_check_rdir}`
+    `#{ssh_check_repo}`
+    Rake::Task[:'deploy:pull_remote'].invoke
   }
 
   task(:pull_remote) {
@@ -140,3 +145,4 @@ namespace(:deploy) {
     puts "Could not git-pull on the remote machine:\n\n#{buf}" unless $? == 0
   }
 }
+

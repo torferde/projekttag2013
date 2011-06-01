@@ -9,10 +9,8 @@
   </li>
   <li>
     <%= link_to 'Projekte', 'projekte.html', :class => current_page?('projekte') %>
-    <ul>
-      <% menu_links.each_pair do |target, anchor| %>
-        <li><%= link_to anchor, target + '.html', :class => current_page?(target) %></li>
-      <% end %>
+    <ul><% menu_links.each_pair do |target, anchor| %>
+      <li><%= link_to anchor, target + '.html', :class => current_page?(target) %></li><% end %>
     </ul>
   </li>
 </ul>
