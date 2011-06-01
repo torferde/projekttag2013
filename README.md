@@ -21,20 +21,20 @@ Nur in aller Kürze:
 
 1. Generieren der Webseite
 
-```
-~$  git clone git://github.com/dmke/pt11web.git
-~$  cd pt11web/generator
-~/pt11web/generator$  rake build
-~/pt11web/generator$  open ../index.html
-```
+  ```
+  ~$  git clone git://github.com/dmke/pt11web.git
+  ~$  cd pt11web/generator
+  ~/pt11web/generator$  rake build
+  ~/pt11web/generator$  open ../index.html
+  ```
 
 2. Deployment
 
-```
-~/pt11web/generator$  $EDITOR config.yml # setup deploy/repo, deploy/to
-~/pt11web/generator$  rake deploy
-~/pt11web/generator$  open http://example.com/wohin/config.yml/deploy/to/zeigt
-```
+  ```
+  ~/pt11web/generator$  $EDITOR config.yml # setup deploy/repo, deploy/to
+  ~/pt11web/generator$  rake deploy
+  ~/pt11web/generator$  open http://example.com/wohin/config.yml/deploy/to/zeigt
+  ```
 
 ## Quellcode-Lizenz
 
@@ -44,7 +44,7 @@ Generator-Skript und die Inhalte.
 ### Generator
 
 Der *Quellcode zum Generieren* (das sind ausschließlich die
-Dateie `generator/config.yml` und `generator/Rakefile`) der
+Dateien `generator/config.yml` und `generator/Rakefile`) der
 Webseiten darf als **gemeinfrei (public domain)** angesehen
 werden. Wesentliche Teile habe ich mir von bekannten Tools
 wie [nanoc](http://nanoc.stoneship.org/) und
