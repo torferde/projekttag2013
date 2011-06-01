@@ -22,10 +22,10 @@ $(function(){
   $("header").prepend(color_switch);
   $("#color-switch").click(function(){
     if (color == "red") {
-      $("body").removeClass("blue").addClass("red");
+      $("body").addClass("blue").removeClass("red");
       color = "blue";
     } else {
-      $("body").addClass("blue").removeClass("red");
+      $("body").removeClass("blue").addClass("red");
       color = "red";
     }
     $.cookie("color", color);

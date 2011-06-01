@@ -121,12 +121,11 @@ desc "Deploys the website."
 task(:deploy => :build) {
   config = Projekttag.config['deploy']
   repo = config['repo']
-  host, rdir = config['to'].split(':')
 
   Dir.chdir(BASE_DIR) {
     git_push = `git push 2>&1`
     puts "Could not git-push the current state:\n\n#{git_push}\n\nContinuing with deployment..." unless $? == 0
-    Rake::Task[:'deploy:pull_remote']
+    Rake::Task[:'deploy:pull_remote'].invoke
   }
 }
 
@@ -138,7 +137,11 @@ namespace(:deploy) {
   }
 
   task(:pull_remote) {
-    buf = `ssh #{host} 'cd #{rdir} && git pull' 2>&1`
+    host, rdir = Projekttag.config['deploy']['to'].split(':')
+    
+    cmd = "ssh #{host} 'cd #{rdir} && git pull' 2>&1"
+    puts cmd
+    buf = `#{cmd}`
     puts "Could not git-pull on the remote machine:\n\n#{buf}" unless $? == 0
   }
 }
