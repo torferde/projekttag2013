@@ -62,13 +62,13 @@ header a span {
 
 header a#color-switch {
   display: block;
-  background: url(color-switch.png) top center no-repeat;
-  width: 60px;
+  background: url(color-switch.png) bottom center no-repeat;
+  width: 30px;
   height: 20px;
 }
 
 body.blue header a#color-switch {
-  background-position: bottom center;
+  background-position: top center;
 }
 
 header ul {
