@@ -40,12 +40,14 @@ h1, h2, h3, h4 {
   font-weight: 100;
   font-family: 'Raleway', 'DejaVu Sans', Tahoma, Helvetica, Arial, sans-serif;
   letter-spacing: -0.05em;
+  line-height: 130%;
+  margin: 2ex 0 1ex;
 }
 
-h1 { font-size: 36px; }
-h2 { font-size: 30px; }
-h3 { font-size: 24px; }
-h4 { font-size: 22px; }
+h1 { font-size: 52px; }
+h2 { font-size: 48px; margin: 0 0 1ex; }
+h3 { font-size: 32px; }
+h4 { font-size: 26px; }
 
 address {
   font-style: normal;

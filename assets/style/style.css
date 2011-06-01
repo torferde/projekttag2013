@@ -180,10 +180,6 @@ a img {
   border: none;
 }
 
-p.center {
-  text-align: center;
-}
-
 p.right, p.logo {
   margin: 0;
   float: right;
@@ -197,3 +193,21 @@ img.logo {
   vertical-align: middle;
   margin: 10px;
 }
+
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: .125em .25em;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
