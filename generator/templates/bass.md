@@ -2,7 +2,7 @@
 
 <p class="logo"><img src="assets/img/bass.png" /></p>
 
-Das Projekt BASS dreht sich um den speziellen "Einsatzort Mensch" und dies aus
+Das Projekt BASS dreht sich um den speziellen >>Einsatzort Mensch<< und dies aus
 gutem Grund, denn gerade ältere Menschen können von technischer Unterstützung
 im Alltag profitieren. In diesem Zusammenhang erfreuen sich sowohl
 Hausnotrufsysteme, als auch mobile Pflegedienste immer weiter wachsender
@@ -27,3 +27,6 @@ Die Besucher können sich auf dem Projekttag ein Bild von unserer Arbeit machen
 und sehen, welche Möglichkeiten  der Lokalitäts- und Aktivitätserkennung bei
 BASS zum Einsatz kommen und welche Fähigkeiten der virtuellen Realität genutzt
 werden.
+
+* [Stand 10](staende.html)
+

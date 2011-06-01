@@ -16,3 +16,7 @@ Projektes wird sowohl von Mitarbeitern der [AG Rechnernetze](http://ag-rn.tzi.de
 ([Prof. Dr. Carsten Bormann](http://www.tzi.de/~cabo)) als auch der
 [AG Künstliche Intelligenz](http://ag-ki.tzi.de)
 ([Prof. Dr. Stefan Edelkamp](http://www.tzi.de/~edelkamp)) übernommen.
+
+* [Projekt-Webseite](http://fidius.me)
+* [Stand 8](staende.html)
+

@@ -56,6 +56,15 @@ abgesehen.
 Der Sourcecode ist weder ordentlich getestet noch
 dokumentiert. Wenn dies jemand übernehmen möchte: Nur zu!
 
+### Fonts
+
+Dieses Repository beinhaltet die konvertierten Web-Fonts
+**Raleway** von Matt McInerney und **Cabin** von Pablo Impallari
+aus dem [Google Webfont Repository](http://www.google.com/webfonts).
+
+Beide Fonts stehen unter der [SIL Open Font License
+(OFL)](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+
 ### Inhalte
 
 Die Inhalte (das sind alle anderen Texte, Bilder/Logos und

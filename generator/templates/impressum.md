@@ -20,3 +20,12 @@
   <a href="mailto:grp-projekttag11@informatik.uni-bremen.de">grp-projekttag11@informatik.uni-bremen.de</a>
 </address>
 
+### Ressourcen
+
+- Webseite, Plakate: Dominik Menke
+- Projektlogos: die einzelnen Projekte
+- [jQuery](http://www.jquery.com): John Resig und die jQuery-Entwickler
+- [jQuery Cookie Plugin](https://github.com/carhartl/jquery-cookie): Klaus Hartl
+- Webfont [Raleway](http://www.google.com/webfonts/family?family=Raleway&subset=latin): Matt McInerney
+- Webfont [Cabin](http://www.google.com/webfonts/family?family=Cabin&subset=latin): Pablo Impallari
+

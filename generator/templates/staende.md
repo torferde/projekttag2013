@@ -1,9 +1,12 @@
 ## Standübersicht
 
-![Standübersicht](assets/img/ebene1.png)
+
+![Standübersicht](assets/img/ebene1.png)  
+Überblick über die Ebene 1 des MZHs.
+{:.center}
 
 1. [Smart Energy](smart-energy.html)
-2. [Spatial Interaction Lab](spatial-interaction-lab.html)
+2. [Spatial](spatial.html)
 3. [Apollo 13.2.0.v3](apollo13.html)
 4. [SAHARA](sahara.html)
 5. [RADAU](radau.html)

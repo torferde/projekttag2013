@@ -22,3 +22,7 @@ Insgesamt hat B-Human somit inzwischen die RoboCup GermanOpen von 2009, 2010
 und 2011, so wie zwei mal in Folge die Weltmeisterschaft gewonnen. Der
 RoboCup 2011 steht noch aus, doch hofft B-Human auch diesmal erfolgreich daran
 teilzunehmen.
+
+* [Projekt-Webseite](http://www.b-human.de)
+* [Stand 11](staende.html)
+

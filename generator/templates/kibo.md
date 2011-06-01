@@ -8,7 +8,7 @@ Verfügung. Dieses Dilemma und seine Folgen machen sich besonders im Lebensallta
 berufstätigen Eltern mit Kleinkindern bemerkbar. Das Projekt KIBO alias
 Kinderbetreuungsorganisation wandte sich an die Betroffenen des herrschenden Zeitgeistes.
 Während einer intensiven Datenerhebungsphase kamen Methoden aus dem Bereich
-"ethnographische Feldforschung" zum Einstaz. Dabei kamen die Projektteilnehmer nicht
+>>ethnographische Feldforschung<< zum Einstaz. Dabei kamen die Projektteilnehmer nicht
 nur mit berufstätigen Eltern in Kontakt, sondern tauchten auch in ihr Leben ein und erlebten
 ihren Alltag mit. Durch diese Erfahrungen der Projektteilnehmer wurden Anforderungen
 gesammelt. Als ein Schritt der partizipativen Softwareentwicklung entstanden aus diesen
@@ -35,6 +35,8 @@ Telefonnummern, Adressen, Erreichbarkeit, Ermittlung der Zuständigkeit, Übersi
 nützlich und welche Anforderungen an die Bedienbarkeit (z.B. klein, handlich, unauffällig
 zu bedienen ...) müssen sie erfüllen?
 
-Somit steht unser Ziel fest. Es stellt sich nun die Frage: "Ist es uns gelungen?" Kommen Sie
+Somit steht unser Ziel fest. Es stellt sich nun die Frage: >>Ist es uns gelungen?<< Kommen Sie
 zum Projekttag und überzeugen sich selbst!
+
+* [Stand 7](staende.html)
 

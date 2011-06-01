@@ -4,7 +4,7 @@
 
 Mit der zunehmenden Miniaturisierung bei gleichzeitig größerer Rechenleistung
 werden auch Alltagsgegenstände zunehmend intelligenter; auf Wohn- und
-Haustechnik bezogen spricht man hier von "Umgebungsintelligenz" *(ambient
+Haustechnik bezogen spricht man hier von >>Umgebungsintelligenz<< *(ambient
 intelligence)*. Diese Techniken können helfen, das Leben angenehmer zu machen
 und Energie sinnvoll einzusparen, ohne den Komfort zu beeinträchtigen.
 
@@ -20,3 +20,6 @@ Technologie [digitalStrom](http://digitalstrom.org/) zum Einsatz kommen, die
 Powerline miteinander kommunizieren und agieren lässt. Darüber kann auch ein
 Energiemanagement realisiert werden, das die Haushaltsgeräte intelligent und
 ressourcenschonend auf flexible Stromtarife reagieren lassen kann.
+
+* [Stand 1](staende.html)
+

@@ -1,3 +1,5 @@
+@import url(fonts.css);
+
 html {
   width: 1000px;
   max-width: 90%;
@@ -10,7 +12,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font: normal 13px/20px "DejaVu Sans Condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
 }
 
 body.red {
@@ -63,8 +64,8 @@ header a span {
 header a#color-switch {
   display: block;
   background: url(color-switch.png) bottom center no-repeat;
-  width: 30px;
-  height: 20px;
+  width: 20px;
+  height: 10px;
 }
 
 body.blue header a#color-switch {
@@ -177,6 +178,10 @@ img {
 
 a img {
   border: none;
+}
+
+p.center {
+  text-align: center;
 }
 
 p.right, p.logo {

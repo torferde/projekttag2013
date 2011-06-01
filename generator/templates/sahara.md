@@ -10,10 +10,13 @@ hat, das Web auf hunderte Millionen von Knoten hochzuskalieren.
 
 Unter Nutzung und Ausbau dieser Ideen sollen Anwendungen für kleine
 batteriebetriebene Sensor-/Aktorknoten entwickelt werden, die sich für die
-Bereiche “Smart Energy” und “Home Automation” eignen. Das Ergebnis soll ein
+Bereiche >>Smart Energy<< und >>Home Automation<< eignen. Das Ergebnis soll ein
 Open-Source-System mit REST-basierter Infrastruktur für diesen Zweck sein,
 einschließlich eines oder mehrerer Demonstratoren, die zeigen, dass der
 Ansatz, Web-ähnliche Technologien auch für Sensor-/Aktorknoten zu verwenden,
 funktioniert.
 
-(Carsten Bormann)
+<p class="right">(Carsten Bormann)</p>
+
+* [Projekt-Webseite](http://sahara.tzi.org/)
+* [Stand 4](staende.html)

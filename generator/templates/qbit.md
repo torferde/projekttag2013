@@ -26,3 +26,5 @@ Synthese, Optimierung, Verifikation und Simulation. Darüber hinaus
 werden im Rahmen des Projekts Werkzeuge zur Automatisierung dieser
 Schritte entwickelt.
 
+* [Stand 9](staende.html)
+

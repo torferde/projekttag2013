@@ -1,8 +1,6 @@
 require 'erb'
 require 'kramdown'
 require 'yaml'
-require 'pp'
-require 'shellwords'
 
 BASE_DIR      = File.expand_path('../../', __FILE__)
 ASSETS_DIR    = File.join(BASE_DIR, 'assets')
@@ -74,7 +72,7 @@ module Projekttag
       t = template(t)
       result = ERB.new(t, 0, "").result(binding)
       result = Kramdown::Document.new(result).to_html if options[:markdown]
-      return result.gsub(/^\s+/, '').gsub(/^$/m, '') if options[:minimize]
+      result.gsub(/^\s+/, '').gsub(/^$/m, '') if options[:minimize]
       result
     end
   

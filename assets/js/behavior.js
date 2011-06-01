@@ -6,6 +6,7 @@ if ($.browser.msie) {
 }
 
 var color = $.cookie("color");
+var hour = new Date(new Date().getTime() + 3600);
 
 $(function(){
   var ua = $.browser;
@@ -28,7 +29,7 @@ $(function(){
       $("body").removeClass("blue").addClass("red");
       color = "red";
     }
-    $.cookie("color", color);
+    $.cookie("color", color, { expires: hour });
     return false;
   });
 });

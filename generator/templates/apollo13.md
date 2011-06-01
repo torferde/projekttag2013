@@ -24,3 +24,6 @@ Simulation und an die Teilnehmenden zu untersuchen.
 Die Crew besteht aus 13 Studierenden der Informatik und der Digitalen Medien,
 betreut durch Prof. Dr. Andreas Breiter, Dipl.-Inf. Jörg Hofmann und
 Dipl. Inf. Emese Stauke (AG Informationsmanagement).
+
+* [Stand 3](staende.html)
+

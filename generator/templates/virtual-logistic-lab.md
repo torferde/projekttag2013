@@ -17,4 +17,7 @@ können diese innerhalb der VLL-Community diskutiert werden.
 VLL wird ein Internet der Dinge etablieren. Mit diesem können die Mitglieder
 der VLL-Community die verschiedenen verfügbaren Technologien einsehen. VLL
 sorgt für offene Schnittstellen und ermöglicht es damit anderen Labs Teil der
-Gemeinschaft zu werden. 
+Gemeinschaft zu werden.
+
+* [Stand 6](staende.html)
+
