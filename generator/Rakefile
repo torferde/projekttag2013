@@ -126,6 +126,7 @@ task(:deploy => :build) {
   Dir.chdir(BASE_DIR) {
     git_push = `git push 2>&1`
     puts "Could not git-push the current state:\n\n#{git_push}\n\nContinuing with deployment..." unless $? == 0
+    Rake::Task[:'deploy:pull_remote']
   }
 }
 

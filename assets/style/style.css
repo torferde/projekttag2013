@@ -8,10 +8,21 @@ html {
 }
 
 body {
-  background: #fff url(body-bg.png) top left no-repeat;
   margin: 0;
   padding: 0;
   font: normal 13px/20px "DejaVu Sans Condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+
+body.red {
+  background: #fff url(body-bg-red.png) top left no-repeat;
+}
+
+body.blue {
+  background: #fff url(body-bg-blue.png) top left no-repeat;
+}
+
+div#page {
+  background: transparent url(page-bg.png) bottom right no-repeat;
 }
 
 header, article, footer {
@@ -30,7 +41,8 @@ header {
   height: 120px;
 }
 
-header a {
+body.red header a,
+body.blue header a {
   color: #fff;
 }
 
@@ -44,8 +56,19 @@ header h1 a {
   background: transparent url(header-bg.png) top left no-repeat;
 }
 
-header h1 a span {
+header a span {
   display: none;
+}
+
+header a#color-switch {
+  display: block;
+  background: url(color-switch.png) top center no-repeat;
+  width: 60px;
+  height: 20px;
+}
+
+body.blue header a#color-switch {
+  background-position: bottom center;
 }
 
 header ul {
@@ -61,9 +84,16 @@ header li {
 }
 
 a {
-  color: #A40000;
   font-weight: bold;
   text-decoration: none;
+}
+
+body.red a {
+  color: #A40000;
+}
+
+body.blue a {
+  color: #2D699A;
 }
 
 a:hover {
@@ -77,7 +107,8 @@ nav {
   float: left;
 }
 
-nav a {
+body.red nav a,
+body.blue nav a {
   display: block;
   position: relative;
   line-height: 30px;
@@ -90,7 +121,14 @@ nav a {
 nav a.active {
   background: #fff;
   font-weight: bold;
+}
+
+body.red nav a.active {
   color: #A40000;
+}
+
+body.blue nav a.active {
+  color: #2D699A;
 }
 
 nav a:hover {
@@ -141,8 +179,12 @@ a img {
   border: none;
 }
 
-p.logo {
+p.right, p.logo {
+  margin: 0;
   float: right;
+}
+
+p.logo {
   margin: 0 0 15px 15px;
 }
 

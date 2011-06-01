@@ -6,40 +6,41 @@
   <title>Projekttag Informatik</title>
   <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
   <script type="text/javascript" src="assets/js/jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
   <script type="text/javascript" src="assets/js/behavior.js"></script>
   <!--[if IE]>
     <link rel="stylesheet" type="text/css" href="assets/style/iefixes.css" />
   <![endif]-->
 </head>
 
-<body>
-
-  <header>
-    <h1><a href="index.html"><span>Projekttag Informatik 2011</span></a></h1>
-    <ul>
-      <li><a href="http://www.informatik.uni-bremen.de">Fachbereich 3, Mathematik/Informatik</a></li>
-      <li><a href="http://www.uni-bremen.de">Universität Bremen</a></li>
-    </ul>
-  </header>
-  
-  <nav>
-    <%= render_menu %>
-  </nav>
-  
-  <article>
-    <div>
-      <%= render_content %>
-    </div>
-  </article>
-  
-  <footer>
-    <ul>
-      <li><a href="impressum.html">Impressum</a></li>
-      <li><a href="anfahrt.html">Anfahrt</a></li>
-      <li><a href="media.html">Media</a></li>
-    </ul>
-  </footer>
-
+<body class="<%= rand > 0.5 ? 'red' : 'blue' %>">
+  <div id="page">
+    <header>
+      <h1><a href="index.html"><span>Projekttag Informatik 2011</span></a></h1>
+      <ul>
+        <li><a href="http://www.informatik.uni-bremen.de">Fachbereich 3, Mathematik/Informatik</a></li>
+        <li><a href="http://www.uni-bremen.de">Universität Bremen</a></li>
+      </ul>
+    </header>
+    
+    <nav>
+      <%= render_menu %>
+    </nav>
+    
+    <article>
+      <div>
+        <%= render_content %>
+      </div>
+    </article>
+    
+    <footer>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="anfahrt.html">Anfahrt</a></li>
+        <li><a href="media.html">Media</a></li>
+      </ul>
+    </footer>
+  </div>
 </body>
 
 </html>
