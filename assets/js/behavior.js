@@ -1,15 +1,15 @@
-if ($.browser.msie) {
+var ua = $.browser;
+var color = $.cookie("color");
+var hour = new Date(new Date().getTime() + 3600 * 1000);
+
+if (ua.msie) {
   var h5="article,nav,header,footer".split(",");
   for(var i=0; i < h5.length; ++i) {
     document.createElement(h5[i]);
   }
 }
 
-var color = $.cookie("color");
-var hour = new Date(new Date().getTime() + 3600);
-
 $(function(){
-  var ua = $.browser;
   if (ua.msie) {
     $("body").addClass("msie").addClass("msie" + ua.version.slice(0,1));
   }
