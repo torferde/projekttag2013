@@ -13,14 +13,19 @@ $(function(){
   if (ua.msie) {
     $("body").addClass("msie").addClass("msie" + ua.version.slice(0,1));
   }
+  
   if (color == "red") {
     $("body").removeClass("blue").addClass("red");
   } else if (color == "blue") {
     $("body").addClass("blue").removeClass("red");
   }
   color = $("body").hasClass("red") ? "red" : "blue";
-  var color_switch = $('<p class="right"><a href="' + window.location + '" id="color-switch"><span>toggle</span></a></p>');
-  $("header").prepend(color_switch);
+  $.cookie("color", color, { expires: hour });
+  
+  $("header").prepend(
+    '<p class="right"><a href="' + window.location + '" id="color-switch"><span>toggle</span></a></p>'
+  );
+  
   $("#color-switch").click(function(){
     if (color == "red") {
       $("body").addClass("blue").removeClass("red");
