@@ -1,7 +1,7 @@
 ## Standübersicht
 
 
-![Standübersicht](assets/img/ebene1.png)  
+![Standübersicht](assets/img/ebene1.png){:#staende}  
 Überblick über die Ebene 1 des MZHs.
 {:.center}
 
