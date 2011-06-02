@@ -12,6 +12,11 @@ html {
 body {
   margin: 0;
   padding: 0;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  -moz-box-shadow: 0 0 10px #aaa;
+  -ms-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
 }
 
 body.red {
@@ -208,7 +213,12 @@ table {
 }
 
 td, th {
+  text-align: left;
   padding: .125em .25em;
+}
+
+td.paddless {
+  padding: .125em 0;
 }
 
 .center {

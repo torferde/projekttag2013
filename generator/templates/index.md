@@ -10,6 +10,8 @@ finden zum Ende der Vorlesungszeit eine Reihe von [Abschluss-Präsentationen](ab
 statt, und weitere studentische [Projekte](projekte.html) präsentieren sich mit
 einem eigenen Stand.
 
+Die Präsentationen finden in der ersten Ebene des MZH im Senatssaal (Raum 1400)
+statt, die [Stände](staende.html) verteilen sich auf die umliegenden Gänge.
 
 
 Wo?
@@ -19,6 +21,6 @@ Wo?
 : [Anfahrt](anfahrt.html)
 
 Wann?
-: 14.07.2011
+: 15.07.2011
 : 9–16 Uhr
 
