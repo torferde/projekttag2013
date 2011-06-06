@@ -27,4 +27,5 @@ werden im Rahmen des Projekts Werkzeuge zur Automatisierung dieser
 Schritte entwickelt.
 
 * [Stand 9](staende.html)
+* [Vortrag um 10.30 Uhr](ablauf.html)
 

@@ -39,4 +39,5 @@ Somit steht unser Ziel fest. Es stellt sich nun die Frage: >>Ist es uns gelungen
 zum Projekttag und überzeugen sich selbst!
 
 * [Stand 7](staende.html)
+* [Vortrag um 10.00 Uhr](ablauf.html)
 

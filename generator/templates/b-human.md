@@ -25,4 +25,5 @@ teilzunehmen.
 
 * [Projekt-Webseite](http://www.b-human.de)
 * [Stand 11](staende.html)
+* [Vortrag um 13.30 Uhr](ablauf.html)
 

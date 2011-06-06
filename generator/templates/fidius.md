@@ -19,4 +19,4 @@ Projektes wird sowohl von Mitarbeitern der [AG Rechnernetze](http://ag-rn.tzi.de
 
 * [Projekt-Webseite](http://fidius.me)
 * [Stand 8](staende.html)
-
+* [Vortrag um 9.30 Uhr](ablauf.html)

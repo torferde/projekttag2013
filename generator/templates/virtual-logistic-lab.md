@@ -20,4 +20,5 @@ sorgt für offene Schnittstellen und ermöglicht es damit anderen Labs Teil der
 Gemeinschaft zu werden.
 
 * [Stand 6](staende.html)
+* [Vortrag um 14.00 Uhr](ablauf.html)
 

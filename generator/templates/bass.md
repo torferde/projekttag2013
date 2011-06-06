@@ -29,4 +29,5 @@ BASS zum Einsatz kommen und welche Fähigkeiten der virtuellen Realität genutzt
 werden.
 
 * [Stand 10](staende.html)
+* [Vortrag um 11.00 Uhr](ablauf.html)
 
