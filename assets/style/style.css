@@ -148,7 +148,8 @@ nav ul li a {
   margin: 15px 0 5px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a.active:hover  {
   color: #fff;
 }
 
