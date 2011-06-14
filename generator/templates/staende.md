@@ -2,9 +2,9 @@
 
 <p class="center">
   <map name="ebene1">
-    <area shape="rect" coords="396,268,422,285" alt="Smart Energy" href="smart-energy.htmk" />
+    <area shape="rect" coords="396,268,422,285" alt="Smart Energy" href="smart-energy.html" />
     <area shape="rect" coords="367,244,388,262" alt="Spatial" href="spatial.html" />
-    <area shape="rect" coords="346,244,366,262" alt="Apollo 13.2.0.v3" href="apollo.html" />
+    <area shape="rect" coords="346,244,366,262" alt="Apollo 13.2.0.v3" href="apollo13.html" />
     <area shape="rect" coords="323,244,345,262" alt="SAHARA" href="sahara.html" />
     <area shape="rect" coords="292,244,314,262" alt="RADAU" href="radau.html" />
     <area shape="rect" coords="275,212,293,233" alt="Virtual Logistic Lab" href="virtual-logistic-lab.html" />
