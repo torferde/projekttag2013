@@ -19,6 +19,6 @@ der VLL-Community die verschiedenen verfügbaren Technologien einsehen. VLL
 sorgt für offene Schnittstellen und ermöglicht es damit anderen Labs Teil der
 Gemeinschaft zu werden.
 
+* [Projekt-Webseite](http://www.virtual-logistics-lab.de/)
 * [Stand 6](staende.html)
 * [Vortrag um 14.00 Uhr](ablauf.html)
-
