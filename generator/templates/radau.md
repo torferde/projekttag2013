@@ -1,9 +1,9 @@
-## RADAU - Robust, Adaptive Discourse and Context Analysis and Understandung
+## RADAU - Robust, Adaptive Discourse and Context Analysis and Understanding
 
 <p class="logo"><img src="assets/img/radau.png" /></p>
 
 Inhalt von RADAU ist es, die gesprochene Sprache in einer
-Mensch-Maschienen-Kommunikation auf mobilen Endgeräten nutzen zu können, 
+Mensch-Maschinen-Kommunikation auf mobilen Endgeräten nutzen zu können, 
 hierbei liegt der Fokus auf einer robusten semantischen Interpretation,
 welche den sprachlichen und situativen Kontext nutzt.
 
