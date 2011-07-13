@@ -15,13 +15,11 @@ verschiedene Felder, unter anderem Bilderkennung, Lokalisation, so wie autonome
 Agenten.
 
 Ziel war es erfolgreich am RoboCup teilzunehmen und in die Fußstapfen des
-Vorgängerprojektes zu treten. Dieses erspielte 2009 bereits den
-Weltmeistertitel. Dem Projekt Roboterfußball gelang es, aufbauend auf der
-Software der Vorgänger, ebenfalls 2010 den Weltmeistertitel zu gewinnen.
-Insgesamt hat B-Human somit inzwischen die RoboCup GermanOpen von 2009, 2010
-und 2011, so wie zwei mal in Folge die Weltmeisterschaft gewonnen. Der
-RoboCup 2011 steht noch aus, doch hofft B-Human auch diesmal erfolgreich daran
-teilzunehmen.
+Vorgängerprojektes zu treten. Dieses erspielte 2009 bereits den Weltmeistertitel.
+Dem Projekt Roboterfußball gelang es, aufbauend auf der Software der Vorgänger,
+ebenfalls 2010 und 2011 den Weltmeistertitel zu gewinnen. Insgesamt konnte
+B-Human somit drei Mal in Folge die RoboCup GermanOpen so wie den RoboCup für
+sich entscheiden.
 
 * [Projekt-Webseite](http://www.b-human.de)
 * [Stand 11](staende.html)
