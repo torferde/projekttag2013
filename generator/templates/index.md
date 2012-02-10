@@ -1,4 +1,4 @@
-## Willkommen zum Projektag Informatik 2011!
+## Willkommen zum Projekttag Informatik 2011!
 
 Am 15. Juli ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
 des Studiengangs Informatik der Universität Bremen stellen ihre Ergebnisse aus
