@@ -4,12 +4,13 @@
 
 <address>
   <p>
-    Dominik Menke<br />
-    Claussenstr. 40<br />
-    28209 Bremen
+    Moritz Rudert<br />
+    Hohentorsheerstr. 172<br />
+    28199 Bremen<br />
+    Telefon: 0421 – 16 76 136
   </p>
   <p>
-    <a href="mailto:dmke@informatik.uni-bremen.de">dmke@informatik.uni-bremen.de</a>
+    <a href="mailto:helios@informatik.uni-bremen.de">helios@informatik.uni-bremen.de</a>
   </p>
 </address>
 
@@ -17,12 +18,13 @@
 
 <address>
   Die Außenminister der Projekte.<br />
-  <a href="mailto:grp-projekttag11@informatik.uni-bremen.de">grp-projekttag11@informatik.uni-bremen.de</a>
+  <a href="mailto:projekttag@informatik.uni-bremen.de">projekttag@informatik.uni-bremen.de</a>
 </address>
 
 ### Ressourcen
 
-- Webseite, Plakate: Dominik Menke
+- Webseite: Moritz Rudert (auf Basis der Vorjahreshomepage von Dominik Menke)
+- Plakate: ?
 - Projektlogos: die einzelnen Projekte
 - [jQuery](http://www.jquery.com): John Resig und die jQuery-Entwickler
 - [jQuery Cookie Plugin](https://github.com/carhartl/jquery-cookie): Klaus Hartl
