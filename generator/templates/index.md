@@ -1,6 +1,6 @@
-## Willkommen zum Projekttag Informatik 2011!
+## Willkommen zum Projekttag Informatik 2012!
 
-Am 15. Juli ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
+Am 20. Juli ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
 des Studiengangs Informatik der Universität Bremen stellen ihre Ergebnisse aus
 zwei Jahren Arbeit vor. Außerdem geben ein paar der aktuell laufenden Projekte
 einen Überblick darüber, womit sie sich in ihrem ersten Jahr Projektarbeit
@@ -30,6 +30,6 @@ Wo?
 : [Anfahrt](anfahrt.html)
 
 Wann?
-: 15.07.2011
+: 20.07.2012
 : 9–16 Uhr
 
