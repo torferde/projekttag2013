@@ -18,7 +18,7 @@ denn Präsentation sind.
 Neben spannenden und witzigen Präsentationen und informativen Postern wird es
 auch Getränke für die Besucher geben sowie Kuchen und Kekse an einigen Ständen.
 
-Wir freuen uns auf Ihren Besuch am 15. Juli 2011 im [MZH](anfahrt.html) an der
+Wir freuen uns auf Ihren Besuch am 20. Juli 2012 im [MZH](anfahrt.html) an der
 Universität Bremen!
 
 ### Die wichtigsten Infos in Kürze
