@@ -15,4 +15,3 @@ Auch dieses Jahr wird es wieder einige Vorträge im Senatssaal des MZHs geben. I
 | ab |   13.30 | [McChip](mcchip.html)                              |
 | ab |   14.00 | [GGP++](ggplusplus.html)                           |
 | ab |   14.30 | [eStudent](estudent.html)                          |
-| ab |   15.00 | [Noire](noire.html)                                |

@@ -14,6 +14,5 @@
 [![Logo Spatial](assets/img/spatial.png){:.logo}](spatial.html)
 [![Logo Virtual Logistic Lab 2.0](assets/img/virtual-logistic-lab-2.png){:.logo}](virtual-logistic-lab-2.html)
 [![Logo AVALON](assets/img/avalon.png){:.logo}](avalon.html)
-[![Logo Noire](assets/img/noire.png){:.logo}](noire.html)
 [![Logo AIDE](assets/img/aide.png){:.logo}](aide.html)
 [![Logo McChip](assets/img/mcchip.png){:.logo}](mcchip.html) 
