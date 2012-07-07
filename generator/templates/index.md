@@ -15,9 +15,6 @@ Das Herzstück des Projekttags sind wie immer die [Abschluss-Vorträge](ablauf.h
 die von den Projekten individuell gestaltet werden und oft mehr Theaterstück
 denn Präsentation sind.
 
-Neben spannenden und witzigen Präsentationen und informativen Postern wird es
-auch Getränke für die Besucher geben sowie Kuchen und Kekse an einigen Ständen.
-
 Wir freuen uns auf Ihren Besuch am 20. Juli 2012 im [MZH](anfahrt.html) an der
 Universität Bremen!
 
