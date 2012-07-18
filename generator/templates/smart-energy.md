@@ -13,3 +13,4 @@ Um das Leben in einer modernen Wohnung noch komfortabler zu machen, werden zwei 
 Ein weiteres Beispiel für Automatisierung in der Versuchswohnung BAALL ist die Ausstattung des Badezimmerspiegels mit einer Webcam, die verwendet wird, um das Gesicht einer Personen vor dem Spiegel zu erkennen und anhand der Position des Gesichtes im Bild die Höhe des Waschbeckens einzustellen.
 
 * [Vortrag um 11.00 Uhr](ablauf.html)
+* [Projekt-Webseite](http://smartenergy.uni-bremen.de)
