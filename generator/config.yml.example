@@ -1,16 +1,18 @@
 menu:
-  apollo13: Apollo 13
-  b-human: B-Human
-  radau: RADAU
-  sahara: SAHARA
-  smart-energy: Smart Energy
-  spatial: Spatial
-  virtual-logistic-lab-2: Virtual Logistic Lab 2.0
-  gplusplus: GGP++
-  estudent: eStudent
-  syncreal: syncReal
-  chip4u: CHIP4U
   act: ACT
+  augment: AUGMENT
+  auv12: AUV12
+  b-human: B-Human
+  chip4u: Chip4U
+  estudent: eStudent
+  facil: facil
+  gobi: GOBI
+  itac: iTac
+  mobile4d: mobile4D
+  parpro: ParPro
+  piripiri: Piri Piri
+  syncreal: SyncReal
+  vll2: VLL2.0
 deploy:
   pull-repo: git@github.com:USER/PROJECT.git # read-only
   push-repo: git://github.com/USER/PROJECT.git # writable
