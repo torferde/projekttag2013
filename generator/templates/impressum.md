@@ -23,7 +23,9 @@
 
 ### Ressourcen
 
-- Webseite: Moritz Rudert (auf Basis der Vorjahreshomepage von Dominik Menke)
+- Webseite:
+  - [Moritz Rudert](https://github.com/mortzu/projekttag2013)
+  - (auf Basis der [Projekttagsseite 2011](http://www.informatik.uni-bremen.de/projekttag/2011/) von [Dominik Menke](https://github.com/dmke/pt11web))
 - Plakate: ?
 - Projektlogos: die einzelnen Projekte
 - [jQuery](http://www.jquery.com): John Resig und die jQuery-Entwickler
