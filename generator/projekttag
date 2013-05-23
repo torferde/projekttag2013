@@ -39,10 +39,15 @@ module Projekttag
 
     attr_reader :current_page, :source_file
 
-    def initialize page
-      @source_file = page
-      page = File.basename(page, '.md') if page.include?('/')
-      @current_page = page
+    def initialize page, opts={}
+      if opts[:is_content]
+        @content = page
+        @dest_file = opts[:dest_file]
+      else
+        @source_file = page
+        page = File.basename(page, '.md') if page.include?('/')
+        @current_page = page
+      end
     end
 
     def link_to anchor, target, options={}
@@ -68,7 +73,11 @@ module Projekttag
     end
 
     def render_content
-      render_template(source_file, :markdown => true)
+      if @content
+        markdown(@content)
+      else
+        render_template(source_file, :markdown => true)
+      end
     end
 
     def render
@@ -76,7 +85,11 @@ module Projekttag
     end
 
     def target_file
-      File.join(DEST_DIR, "#{current_page}.html")
+      if @dest_file
+        @dest_file
+      else
+        File.join(DEST_DIR, "#{current_page}.html")
+      end
     end
 
     def write
@@ -92,9 +105,13 @@ module Projekttag
       options = { :minimize => false, :markdown => false }.merge(options)
       t = template(t)
       result = ERB.new(t, 0, "").result(binding)
-      result = Kramdown::Document.new(result).to_html if options[:markdown]
+      result = markdown(result) if options[:markdown]
       result.gsub(/^\s+/, '').gsub(/^$/m, '') if options[:minimize]
       result
+    end
+
+    def markdown text
+      Kramdown::Document.new(text).to_html
     end
 
   end # class Page
@@ -130,6 +147,30 @@ class Generator < Thor
   def symlink_assets
     assets_link = File.join(DEST_DIR, "assets")
     system("cd #{DEST_DIR} && ln -s ../assets assets") unless File.exists?(assets_link)
+  end
+
+  desc "projectslist", "generate picturesque projects list"
+  def projectslist
+    images = Dir.glob(File.join(ASSETS_DIR, "img/projects/*"))
+    projects = images.map{|img| File.basename(img, ".*") }
+    index = 0
+    md_list = projects.map do |project|
+      image = images[index]
+      md = "[![#{config_file['menu'][project]}](#{image}){:.logo}](#{project}.html)"
+      index += 1
+      md
+    end
+    projects_file = File.join(DEST_DIR, "projekte.html")
+    page = Projekttag::Page.new(md_list.join("\n"),
+                                is_content: true,
+                                dest_file: projects_file)
+    page.write
+  end
+
+  no_commands do
+    def config_file
+      @@config ||= YAML.load_file(File.join(GENERATOR_DIR, 'config.yml'))
+    end
   end
 end
 
