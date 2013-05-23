@@ -6,7 +6,7 @@
 
 In diesem Repository finden sich die Quelldaten für die
 [Informatik-Projekttagsseite](http://www.informatik.uni-bremen.de/projekttag)
-für den Durchlauf im Jahre 2012 des [Studiengangs Informatik](http://www.informatik.uni-bremen.de)
+für den Durchlauf im Jahre 2013 des [Studiengangs Informatik](http://www.informatik.uni-bremen.de)
 im Fachbereich 3 der [Universität Bremen](http://www.uni-bremen.de).
 
 Dieses Repository dient primär dazu, eine frei verfügbare Online-Ressource für das Deployment zu
@@ -64,5 +64,4 @@ Die Inhalte (das sind alle anderen Texte, Bilder/Logos und sonstige Dateien) sin
 studentischen Projekten zusammengetragen worden und daher (sofern nicht ausdrücklich anders
 gekennzeichnet) urheberrechtlich geschützt.
 
-(c) 2012  Apollo 13, B-Human, RADAU, SAHARA, Smart Energy, Spatial, Virtual Logistic Lab 2.0, 
-          GGP++, eStudent, syncReal, CHIP4U, ACT.
+(c) 2013  ACT, AUGMENT, AUV12, B-Human, Chip4U, eStudent, facil, GOBI, iTac, mobile4D, ParPro, Perzeption in und mit Spielen (Piri Piri), syncreal, VLL2.0
