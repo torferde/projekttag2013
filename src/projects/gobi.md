@@ -1,6 +1,6 @@
 ## Global(ly connected) Objects Build (the) Internet (of Things)
 
-<p class="logo"><img src="assets/img/gobi.png" /></p>
+<p class="logo"><img src="assets/img/projects/gobi.png" /></p>
 
 Wir sind ein studentisches Bachelor-Projekt der Universität Bremen, bestehend aus 18 Studenten der Semester 4-10. 
 Betreut werden wir dabei von Mitarbeitern der AG Rechnernetze - insbesondere von Prof. Dr. Ute Bormann, 

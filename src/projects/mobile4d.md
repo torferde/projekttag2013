@@ -1,6 +1,6 @@
 ## Mobile for Development
 
-<p class="logo"><img src="assets/img/mobile4d.png" /></p>
+<p class="logo"><img src="assets/img/projects/mobile4d.png" /></p>
 
 "Mobile for Development" - Mit 19 Studenten haben wir ein mobiles 
 Katastrophenwarnsystem für Laos entwickelt, das in Kooperation mit der dortigen 

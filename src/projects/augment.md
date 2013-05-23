@@ -1,6 +1,6 @@
 ## AUGMENT
 
-<p class="logo"><img src="assets/img/augment.png" /></p>
+<p class="logo"><img src="assets/img/projects/augment.png" /></p>
 
 Das Team AUGMENT besteht aus Informatikstudenten in der Cognitive Systems (Cosy) AG an der Universität Bremen, 
 die auf einen Abschluss zum Bachelor of Science oder als Diplom-Informatiker studieren.

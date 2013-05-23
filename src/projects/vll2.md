@@ -1,6 +1,6 @@
 ## Virtual Logistics Lab 2.0
 
-<p class="logo"><img src="assets/img/vll2.png" /></p>
+<p class="logo"><img src="assets/img/projects/vll2.png" /></p>
 
 Das Virtual Logistics Lab 2.0 entwickelt  am Beispiel  der Fördertechnik des LogDynamics Lab im BIBA - Bremer Institut für 
 Produktion und Logistik auf einem Multiagenten System beruhende Steuerung für Intralogistiksysteme um die Robustheit, 

@@ -1,6 +1,6 @@
 ## SyncReal
 
-<p class="logo"><img src="assets/img/syncreal.png" /></p>
+<p class="logo"><img src="assets/img/projects/syncreal.png" /></p>
 
 SyncReal ist ein studentisches Projekt des Studiengangs Informatik (Bachelor und Master) der Universität Bremen.
 

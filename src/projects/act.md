@@ -1,6 +1,6 @@
 ## ACT - Adaptive Control of Thought
 
-<p class="logo"><img src="assets/img/act.png" /></p>
+<p class="logo"><img src="assets/img/projects/act.png" /></p>
 
 Die Interaktion zwischen Mensch und Maschine ist schon längst nicht mehr auf Tastatur und Maus begrenzt.
 Ob Siri beim IPhone, Nintendo Wii oder XBox 360 mit der Kinect: Schon heute finden sich zahllose Beispiele

@@ -1,6 +1,6 @@
 ## AUV 12
 
-<p class="logo"><img src="assets/img/auv12.png" /></p>
+<p class="logo"><img src="assets/img/projects/auv12.png" /></p>
 
 Das AUV "AVALON" (Aquatic Vehicle for Autonomous Learning, Operation and Navigation) wurde im Rahmen des letzten 
 zweijährigen Diplomstudentenprojektes im Jahr 2007 in Kooperation mit dem DFKI (Deutsches Forschungszentrum für 

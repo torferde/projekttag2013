@@ -1,6 +1,6 @@
 ## facil
 
-<p class="logo"><img src="assets/img/facil.png" /></p>
+<p class="logo"><img src="assets/img/projects/facil.png" /></p>
 
 Das Projekt facil ist in der angewandten Informatik angesiedelt.
 Ziel des Projekts ist, unter Einsatz von Methoden der

@@ -1,6 +1,6 @@
 ## eStudent
 
-<p class="logo"><img src="assets/img/estudent.png" /></p>
+<p class="logo"><img src="assets/img/projects/estudent.png" /></p>
 
 Wir beschäftigen uns mit dem Anwendungsparadigma, das sich durch die neuen innovativen
 Smartphones und Tablets mit Android bzw. iOS Betriebssystemen öffnet. Initialisiert und

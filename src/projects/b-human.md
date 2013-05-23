@@ -1,6 +1,6 @@
 ## B-Human
 
-<p class="logo"><img src="assets/img/b-human.png" /></p>
+<p class="logo"><img src="assets/img/projects/b-human.png" /></p>
 
 Das Projekt B-Human startete 2009 mit zwei RoboCup Teams B-Smart und B-Human. B-Smart 
 wurde jedoch aus verschiedenen Gründen pausiert und die Mitglieder verstärkten daraufhin B-Human.

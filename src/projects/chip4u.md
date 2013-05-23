@@ -1,6 +1,6 @@
 ## Chip4U
 
-<p class="logo"><img src="assets/img/chip4u.png" /></p>
+<p class="logo"><img src="assets/img/projects/chip4u.png" /></p>
 
 Stell dir vor, deine Mutter hat in zwei Wochen Geburtstag und du möchtest ihr ein Geschenk schicken.
 

@@ -1,6 +1,6 @@
 ## iTac
 
-<p class="logo"><img src="assets/img/itac.png" /></p>
+<p class="logo"><img src="assets/img/projects/itac.png" /></p>
 
 ### Thema und Namensgebung
 In allen Bereichen hat die Informationsflut lawinenartig zugenommen. E‐Mails, Webseiten, Dokumente, soziale Netzwerke, 
