@@ -11,7 +11,7 @@ Mensch-Maschine-Interaktion zu realisieren. Der Fokus liegt dabei auf dem Tracki
 Oberkörpers. Zum Einsatz kommen die Kinect von Microsoft und ein selbstgebautes System aus Beschleuniguns-
 und Beugesensoren, die die Bewegung der verschiedenen Arm- und Handgelenke aufzeichnen und an eine
 virtuelle Welt weiterleiten.
-Ein weiteres Ziel ist das Erkennen von komplexen Bewegungsabläufen in abstrakten Szenarien wie zum Beispiel das
+Ein weiteres Ziel ist das Erkennen von komplexen Bewegungsabläufen in abstrakten Szenarien, wie zum Beispiel das
 Greifen und Festhalten eines virtuellen Gegenstandes.
 
 * [Projekt-Webseite](http://act.informatik.uni-bremen.de/)

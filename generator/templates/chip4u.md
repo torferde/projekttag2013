@@ -10,4 +10,4 @@ Am Tag der Auslieferung wird dein Geschenk wieder an den Roboter übergeben und 
 
 Das ist ein typisches Einsatzszenario für das System, welches im Rahmen von Chip4U entwickelt wird.
 
-Dabei soll das Gesamtsystem von selbst entworfenen verteilten Multikern-Prozessoren gesteuert werden. Damit die Sicherheit deines Geschenkes und aller Beteiligten gewährleistet ist, werden die Systeme mit verschiedenen Verfahren intensiv simuliert, emuliert und verifiziert.
+Dabei soll das Gesamtsystem von selbst entworfenen, verteilten Multikern-Prozessoren gesteuert werden. Damit die Sicherheit deines Geschenkes und aller Beteiligten gewährleistet ist, werden die Systeme mit verschiedenen Verfahren intensiv simuliert, emuliert und verifiziert.
