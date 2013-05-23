@@ -28,5 +28,5 @@ Wo?
 
 Wann?
 : 21.06.2013
-: 9–16 Uhr
-
+: 9–14 Uhr Vorträge
+: 15-21 Uhr Infostände
