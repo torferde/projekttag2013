@@ -22,19 +22,19 @@ Nur in aller Kürze:
 - Generieren der Webseite
 
 ```
-~$  git clone git://github.com/dmke/pt11web.git
-~$  cd pt11web/generator
-~/pt11web/generator$  rake build
-~/pt11web/generator$  open ../index.html
+~$  git clone https://github.com/mortzu/projekttag2013
+~$  cd projekttag2013/generator
+~/projekttag2013/generator$  rake build
+~/projekttag2013/generator$  open ../index.html
 ```
 
 - Deployment
 
 ```
-~/pt11web/generator$  $EDITOR config.yml # setup deploy/push-repo, deploy/pull-repo, deploy/to
-~/pt11web/generator$  rake deploy:setup  # initial
-~/pt11web/generator$  rake deploy        # subsequently
-~/pt11web/generator$  open http://example.com/wohin/config.yml/deploy/to/zeigt
+~/projekttag2013/generator$  $EDITOR config.yml # setup deploy/push-repo, deploy/pull-repo, deploy/to
+~/projekttag2013/generator$  rake deploy:setup  # initial
+~/projekttag2013/generator$  rake deploy        # subsequently
+~/projekttag2013/generator$  open http://example.com/wohin/config.yml/deploy/to/zeigt
 ```
 
 ## Quellcode-Lizenz
