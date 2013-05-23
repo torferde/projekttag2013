@@ -1,7 +1,8 @@
 ## Willkommen zum Projekttag Informatik 2013!
 
 Am 21. Juni ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
-des Studiengangs Informatik der Universität Bremen stellen ihre Ergebnisse aus
+des Studiengangs Informatik der Universität Bremen stellen im Rahmen des 
+[Open Campus](http://www.uni-bremen.de/open-campus.html) ihre Ergebnisse aus
 zwei Jahren Arbeit vor. Außerdem geben ein paar der aktuell laufenden Projekte
 einen Überblick darüber, womit sie sich in ihrem ersten Jahr Projektarbeit
 beschäftigt haben.
