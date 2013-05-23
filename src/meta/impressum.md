@@ -10,7 +10,7 @@
     Telefon: 0421 – 16 76 136
   </p>
   <p>
-    <a href="mailto:helios@informatik.uni-bremen.de">helios@informatik.uni-bremen.de</a>
+    <helios@informatik.uni-bremen.de>
   </p>
 </address>
 
@@ -18,7 +18,7 @@
 
 <address>
   Die Vertreter der einzelnen Projekte.<br />
-  <a href="mailto:projekttag@informatik.uni-bremen.de">projekttag@informatik.uni-bremen.de</a>
+  <projekttag@informatik.uni-bremen.de>
 </address>
 
 ### Ressourcen
@@ -30,3 +30,5 @@
 - Projektlogos: die einzelnen Projekte
 - Webfont [Raleway](http://www.google.com/webfonts/family?family=Raleway&subset=latin): Matt McInerney
 - Webfont [Cabin](http://www.google.com/webfonts/family?family=Cabin&subset=latin): Pablo Impallari
+- [redcarpet](https://github.com/vmg/redcarpet)
+- [ruby](http://www.ruby-lang.org)
