@@ -22,12 +22,14 @@ Universität Bremen!
 ### Die wichtigsten Infos in Kürze
 
 Wo?
-: Universität Bremen
-: MZH (Mehrzweckhochhaus)
-: Ebene 1
-: [Anfahrt](anfahrt.html)
+
+- Universität Bremen
+- MZH (Mehrzweckhochhaus)
+- Ebene 1
+- [Anfahrt](anfahrt.html)
 
 Wann?
-: 21.06.2013
-: 9–14 Uhr Vorträge
-: 15-21 Uhr Infostände
+
+- 21.06.2013
+- 9–14 Uhr Vorträge
+- 15-21 Uhr Infostände
