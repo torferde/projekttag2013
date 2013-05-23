@@ -1,5 +1,7 @@
 ## iTac
 
+<p class="logo"><img src="assets/img/itac.png" /></p>
+
 ### Thema und Namensgebung
 In allen Bereichen hat die Informationsflut lawinenartig zugenommen. E‐Mails, Webseiten, Dokumente, soziale Netzwerke, Blogs, Zeitungen und diese Liste lässt sich beliebig fortsetzen. Die zentrale Gemeinsamkeit all dieser Informationsquellen ist Text. Täglich muss man dabei die relevante Information finden bzw. extrahieren. Um der Lage Herr zu werden, wird als Lösungsstrategie der Text überflogen, gefiltert oder einfach ignoriert. Dabei liegt der Text ja eigentlich bereits "verarbeitbar" im Rechner vor. Betrachtet man hier beispielsweise aktuelle Textverarbeitungssoftware, so beherrscht diese Rechtschreib‐ und Grammatikprüfung ziemlich gut. Im Kontext von Programmiersprachen entspräche dies aber etwa dem Niveau von Type‐Checking also der Überprüfung auf mögliche Typverletzung. Im Projekt "iTac" (interpret Text and conclude) wollen wir Text automatisch durch Software verstehen und es ermöglichen Schlussfolgerungen zu ziehen. Damit schaffen wir die Basis für vielfältige Anwendungen: von der Zusammenfassung von Texten, dem Vergleich zweier Texte, die Steuerung per Texteingabe bis hin zum Entwurf eines Systems mit Hilfe natürlicher Sprache.
 
