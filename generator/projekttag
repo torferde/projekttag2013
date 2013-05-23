@@ -1,0 +1,136 @@
+#! /usr/bin/env ruby
+require 'erb'
+require 'kramdown'
+require 'yaml'
+require 'thor'
+require 'fileutils'
+
+include FileUtils
+
+BASE_DIR      = File.expand_path('../../', __FILE__)
+ASSETS_DIR    = File.join(BASE_DIR, 'assets')
+GENERATOR_DIR = File.join(BASE_DIR, 'generator')
+TEMPLATES_DIR = File.join(GENERATOR_DIR, 'templates')
+SRC_DIR       = File.join(BASE_DIR, 'src')
+DEST_DIR       = File.join(BASE_DIR, 'dest')
+COMPILEABLE_FILES = Dir.glob(File.join(SRC_DIR, '/**/*.md'))
+
+module Projekttag
+  def template name
+    if File.exists?(name)
+      return File.read(name)
+    else
+      filename = File.join(TEMPLATES_DIR, name)
+      %w{.md .html .html.erb}.each do |ext|
+        tmpl = filename + ext
+        return File.read(tmpl) if File.exists? tmpl
+      end
+    end
+    raise Errno::ENOENT, "Template #{name}[.{md,html,html.erb}] not found."
+  end
+
+  def config
+    @config ||= YAML.load_file(File.join(GENERATOR_DIR, 'config.yml'))
+  end
+  module_function :config
+
+  class Page
+    include Projekttag
+
+    attr_reader :current_page, :source_file
+
+    def initialize page
+      @source_file = page
+      page = File.basename(page, '.md') if page.include?('/')
+      @current_page = page
+    end
+
+    def link_to anchor, target, options={}
+      options = { :class => nil, :id => nil }.
+        merge(options).
+        to_a.reduce("") do|opts, (key,value)|
+          opts << "#{key}=\"#{value}\" " if value
+          opts
+        end
+      "<a #{options.strip} href=\"#{target}\">#{anchor}</a>"
+    end
+
+    def current_page? target
+      return true if current_page == target
+    end
+
+    def menu_links
+      @menu_link ||= config['menu'].sort
+    end
+
+    def render_menu
+      render_template('partials/menu')
+    end
+
+    def render_content
+      render_template(source_file, :markdown => true)
+    end
+
+    def render
+      render_template('partials/main')
+    end
+
+    def target_file
+      File.join(DEST_DIR, "#{current_page}.html")
+    end
+
+    def write
+      puts "Generating #{target_file} ..."
+      File.open(target_file, 'w') do |f|
+        f.write render
+      end
+    end
+
+  private
+
+    def render_template t, options={}
+      options = { :minimize => false, :markdown => false }.merge(options)
+      t = template(t)
+      result = ERB.new(t, 0, "").result(binding)
+      result = Kramdown::Document.new(result).to_html if options[:markdown]
+      result.gsub(/^\s+/, '').gsub(/^$/m, '') if options[:minimize]
+      result
+    end
+
+  end # class Page
+end # module Projekttag
+
+class Generator < Thor
+  desc "configure", "copies config.yml" 
+  def configure
+    src = File.join(GENERATOR_DIR, "config.yml.example")
+    dest = File.join(GENERATOR_DIR, "config.yml")
+    cp src, dest unless File.exists?(dest)
+  end
+
+  desc "build", "generate pages"
+  method_option :force, :aliases => "-f", :desc => "Force writing of every file."
+  def build
+    configure
+    symlink_assets
+    COMPILEABLE_FILES.each do |file|
+      page = Projekttag::Page.new file
+      target = page.target_file
+      modified = !File.exists?(target) || File.mtime(file) > File.mtime(target)
+      page.write if options[:force] || modified
+    end
+  end
+
+  desc "clean", "removes generated files"
+  def clean
+    rm Dir.glob(File.join(DEST_DIR, "/*"))
+  end
+
+  desc "assets", "symlink the assets to the dest dir"
+  def symlink_assets
+    assets_link = File.join(DEST_DIR, "assets")
+    system("cd #{DEST_DIR} && ln -s ../assets assets") unless File.exists?(assets_link)
+  end
+end
+
+Generator.start(ARGV)
