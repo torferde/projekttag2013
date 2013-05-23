@@ -2,7 +2,7 @@
 
 <p class="logo"><img src="assets/img/mobile4d.png" /></p>
 
-"Mobile for Development"  -  Mit 19 Studenten haben wir ein mobiles 
+"Mobile for Development" - Mit 19 Studenten haben wir ein mobiles 
 Katastrophenwarnsystem für Laos entwickelt, das in Kooperation mit der dortigen 
 Regierung entsteht.
 
@@ -21,4 +21,4 @@ und mögliche Schutzmaßnahmen können auf diese Weise unkompliziert und schnell
 untereinander verbreitet werden. Dadurch können die Menschen sich und ihre 
 Existenzgrundlage effektiv schützen.
 
-- [Projekt-Webseite](http://mobile4d.capacitylab.org/)
+- [Projekt-Webseite](http://mobile4d.capacitylab.org)

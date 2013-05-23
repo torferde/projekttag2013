@@ -14,4 +14,4 @@ virtuelle Welt weiterleiten.
 Ein weiteres Ziel ist das Erkennen von komplexen Bewegungsabläufen in abstrakten Szenarien, wie zum Beispiel das
 Greifen und Festhalten eines virtuellen Gegenstandes.
 
-* [Projekt-Webseite](http://act.informatik.uni-bremen.de/)
+- [Projekt-Webseite](http://act.informatik.uni-bremen.de)
