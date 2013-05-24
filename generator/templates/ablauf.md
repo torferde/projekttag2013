@@ -10,7 +10,7 @@ Auch dieses Jahr wird es wieder einige Vorträge im Senatssaal des MZHs geben. I
 | ab |   10.30 | [AIDE](aide.html)                                  |
 | ab |   11.00 | [Smart Energy](smart-energy.html)                  |
 | ab |   11.30 | Mittagspause                                       |
-| ab |   12.30 | [Movirwelt](movirwelt.html)                        |
+| ab |   12.30 | [MoVirWelt](movirwelt.html)                        |
 | ab |   13.00 | [RADAU](radau.html)                                |
 | ab |   13.30 | [McChip](mcchip.html)                              |
 | ab |   14.00 | [GGP++](ggplusplus.html)                           |

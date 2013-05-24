@@ -3,7 +3,7 @@
 [![Logo MOBEV](assets/img/mobev.png){:.logo}](mobev.html)
 [![Logo SyncReal](assets/img/syncreal.png){:.logo}](syncreal.html)
 [![Logo B-Human](assets/img/b-human.png){:.logo}](b-human.html)
-[![Logo Movirwelt](assets/img/movirwelt.png){:.logo}](movirwelt.html)
+[![Logo MoVirWelt](assets/img/movirwelt.png){:.logo}](movirwelt.html)
 [![Logo ACT](assets/img/act.png){:.logo}](act.html)
 [![Logo Chip4U](assets/img/chip4u.png){:.logo}](chip4u.html)
 [![Logo GGP++](assets/img/ggplusplus.png){:.logo}](ggplusplus.html)
