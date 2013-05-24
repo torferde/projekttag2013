@@ -1,6 +1,6 @@
-## Willkommen zum Projekttag Informatik 2012!
+## Willkommen zum Projekttag Informatik 2013!
 
-Am 20. Juli ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
+Am 21. Juni ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
 des Studiengangs Informatik der Universität Bremen stellen ihre Ergebnisse aus
 zwei Jahren Arbeit vor. Außerdem geben ein paar der aktuell laufenden Projekte
 einen Überblick darüber, womit sie sich in ihrem ersten Jahr Projektarbeit
@@ -15,7 +15,7 @@ Das Herzstück des Projekttags sind wie immer die [Abschluss-Vorträge](ablauf.h
 die von den Projekten individuell gestaltet werden und oft mehr Theaterstück
 denn Präsentation sind.
 
-Wir freuen uns auf Ihren Besuch am 20. Juli 2012 im [MZH](anfahrt.html) an der
+Wir freuen uns auf Ihren Besuch am 21. Juni 2013 im [MZH](anfahrt.html) an der
 Universität Bremen!
 
 ### Die wichtigsten Infos in Kürze
@@ -27,6 +27,6 @@ Wo?
 : [Anfahrt](anfahrt.html)
 
 Wann?
-: 20.07.2012
+: 21.06.2013
 : 9–16 Uhr
 
