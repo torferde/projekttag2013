@@ -17,7 +17,7 @@
 ### Ansprechpartner Inhalte, allgemeiner Kontakt
 
 <address>
-  Die Außenminister der Projekte.<br />
+  Die Vertreter der einzelnen Projekte.<br />
   <a href="mailto:projekttag@informatik.uni-bremen.de">projekttag@informatik.uni-bremen.de</a>
 </address>
 
@@ -28,8 +28,5 @@
   - (auf Basis der [Projekttagsseite 2011](http://www.informatik.uni-bremen.de/projekttag/2011/) von [Dominik Menke](https://github.com/dmke/pt11web))
 - Plakate: ?
 - Projektlogos: die einzelnen Projekte
-- [jQuery](http://www.jquery.com): John Resig und die jQuery-Entwickler
-- [jQuery Cookie Plugin](https://github.com/carhartl/jquery-cookie): Klaus Hartl
 - Webfont [Raleway](http://www.google.com/webfonts/family?family=Raleway&subset=latin): Matt McInerney
 - Webfont [Cabin](http://www.google.com/webfonts/family?family=Cabin&subset=latin): Pablo Impallari
-
