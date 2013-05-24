@@ -2,21 +2,10 @@
 
 <p class="logo"><img src="assets/img/radau.png" /></p>
 
-Inhalt von RADAU ist es, die gesprochene Sprache in einer
-Mensch-Maschinen-Kommunikation auf mobilen Endgeräten nutzen zu können, 
-hierbei liegt der Fokus auf einer robusten semantischen Interpretation,
-welche den sprachlichen und situativen Kontext nutzt.
+Thematische Inhalte des Projekts RADAU sind Künstliche Intelligenz - insbesondere die Verarbeitung natürlich gesprochener Sprache - sowie Aspekte des Wearable Computing, also der Einsatz von mobilen Endgeräten, um den situativen Kontext des Nutzers beachten zu können.
 
-Der von den Projektteilnehmern eigenständig ausgewählte Anwendungskontext
-ist die Entwicklung einer Client-Server Anwendung, welche dem Benutzer
-Routen- und öPNV-Fahrplaninformationen von Bremen zugänglich machen soll.
-Die Architektur des Systems wird zusätzlich modular gehalten, damit es für
-das Abrufen zusätzlicher Informationen erweiterbar ist, z.B. Informationen
-über Veranstalltungen, Restaurants und andere Freizeitangebote.
+Das von den RADAU-Teilnehmern im Rahmen dieser Themenbereiche eigenständig ausgewählte Projektziel ist die Entwicklung eines Programms, das das natürlichsprachliche Erfragen von Routen- und ÖPNV-Fahrplaninformationen für das Stadtgebiet Bremen ermöglichen soll. Zwangsläufig entstehende Ambiguitäten in der Eingabe sollen dabei teilweise in einfachen Dialogen zwischen Nutzer und Anwendung gelöst werden. Ein- und Ausgabesprache des Systems ist Deutsch als im Gegensatz zu beispielsweise Englisch recht schwierig zu verarbeitende Sprache. Das Programm ist als Client-Server-Anwendung angelegt, deren Client für das Android-Betriebssystem entwickelt wird, so dass sie dem Nutzer potentiell zu jeder Zeit und an jedem Ort zur Verfügung steht und andererseits die Anwendung über die Sensoren des Endgeräts Zugriff auf Informationen wie den aktuellen Standort besitzt.
 
-Um den Benutzern unsere Anwendung zugänglich zu machen, wurde die Entwicklung
-einer App für das Android Betriebssystem begonnen. Smartphones erfüllen hierbei
-zusätzlich den Zweck, dass sie alle notwendigen Sensoren für eine erfolgreiche
-Kontextanalyse besitzen.
+Das Anbinden weiterer Services an die Anwendung - wie z.B. Informationsbereitstellung zu öffentlichen Veranstaltung, Gastronomie und Tourismus - ist zwar nicht Inhalt des Projekts, wurde aber von Anfang an bei der Entwicklung als Möglichkeit für die Zukunft berücksichtigt, damit die eventuelle Umsetzung möglichst einfach wird.
 
 * [Vortrag um 13.00 Uhr](ablauf.html)
