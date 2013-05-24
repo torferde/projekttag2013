@@ -836,7 +836,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
       </cc:Work>
@@ -1532,7 +1532,7 @@
          y="236.95917"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3390">McChip · Spartial</tspan><tspan
+         id="tspan3390">McChip · Spatial</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="249.09517"
          x="190.19945"
@@ -1572,7 +1572,7 @@
          y="334.04724"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan4091">Noire</tspan><tspan
+         id="tspan4091" /><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="346.18326"
          x="190.19945"
