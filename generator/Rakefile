@@ -46,7 +46,7 @@ module Projekttag
     end
 
     def menu_links
-      @menu_link ||= config['menu']
+      @menu_link ||= config['menu'].sort
     end
 
     def render_menu
