@@ -30,3 +30,5 @@ Das Projektziel ist das Entwickeln eines solchen GGP-Spielers, der sämtliche in
 GDL modellierten Spiele erfolgreich spielen kann. Des weiteren soll die
 Beschreibungssprache um die Modellierung des Zufalls (z.B. Würfel) erweitert
 werden, damit viele weitere Spiele spielbar werden.
+
+* [Vortrag um 14.00 Uhr](ablauf.html)

@@ -11,3 +11,5 @@ So lassen sich die verschiedenen Geräte nicht mehr nur direkt am Gerät oder be
 Um das Leben in einer modernen Wohnung noch komfortabler zu machen, werden zwei Methoden verwendet, um Bewohner zu lokalisieren und mit den gewonnenen Positionsdaten Geräte automatisch steuern zu können. Dies geschieht zum einen durch WLAN-Ortung, bei der die Lokalisierung anhand der Smartphones oder sonstiger tragbarer Geräte der Bewohner erfolgt. Zum anderen werden Kinects von Microsoft eingesetzt, mit denen die Positionen der Bewohner in den einzelnen Räumen sehr genau bestimmt werden können. So lassen sich Aktionen, wie das Anschalten des Lichts oder das Öffnen einer Tür, automatisch ausführen, wenn eine Person eine bestimmte Zone in einem Raum betritt.
 
 Ein weiteres Beispiel für Automatisierung in der Versuchswohnung BAALL ist die Ausstattung des Badezimmerspiegels mit einer Webcam, die verwendet wird, um das Gesicht einer Personen vor dem Spiegel zu erkennen und anhand der Position des Gesichtes im Bild die Höhe des Waschbeckens einzustellen.
+
+* [Vortrag um 11.00 Uhr](ablauf.html)

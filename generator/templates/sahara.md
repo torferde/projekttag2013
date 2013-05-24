@@ -41,3 +41,4 @@ Zusammenfassend wird im Projekt gezeigt, dass der Ansatz, Web-ähnliche
 Technologien auch für Sensor-/Aktorknoten zu verwenden, funktioniert.
 
 * [Projekt-Webseite](http://sahara.tzi.org/)
+* [Vortrag um 9.00 Uhr](ablauf.html)

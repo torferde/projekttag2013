@@ -10,3 +10,5 @@ Im Projekt McChip haben wir ausgehend vom [OpenCL](http://www.khronos.org/opencl
 Das Ergebnis der Arbeit ist ein modulares Hardwarekonzept, das es erlaubt die Anzahl der "Rechenkerne" an die domänenspezifischen Erfordernisse anzupassen.  
 
 Wir freuen uns, Sie an unserem Stand begrüßen zu dürfen.
+
+* [Vortrag um 13.30 Uhr](ablauf.html)

@@ -35,4 +35,5 @@ für die Architekturanalyse und iClones <http://www.softwareclones.org/> für di
 Klonanalyse) und integriert diese in die etablierte Entwicklungsumgebung eclipse 
 <http://www.eclipse.org/>.
 
-- [Projekt-Webseite](http://aide.informatik.uni-bremen.de/)
+* [Projekt-Webseite](http://aide.informatik.uni-bremen.de/)
+* [Vortrag um 10.30 Uhr](ablauf.html)

@@ -37,4 +37,5 @@ Touchscreens und Applikationen) arbeiten. Dadurch soll eine deutliche Trennung
 der einzelnen Komponenten und somit gut spezifizierte Schnittstellen zwischen
 ihnen sichergestellt werden.
 
-- [Projekt-Webseite](http://spatial.cosy.informatik.uni-bremen.de/)
+* [Projekt-Webseite](http://spatial.cosy.informatik.uni-bremen.de/)
+* [Vortrag um 10.00 Uhr](ablauf.html)

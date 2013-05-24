@@ -18,3 +18,5 @@ Um den Benutzern unsere Anwendung zugänglich zu machen, wurde die Entwicklung
 einer App für das Android Betriebssystem begonnen. Smartphones erfüllen hierbei
 zusätzlich den Zweck, dass sie alle notwendigen Sensoren für eine erfolgreiche
 Kontextanalyse besitzen.
+
+* [Vortrag um 13.00 Uhr](ablauf.html)
