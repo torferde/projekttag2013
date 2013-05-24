@@ -18,15 +18,15 @@ module Projekttag
     }
     raise Errno::ENOENT, "Template #{name}[.{md,html,html.erb}] not found."
   end
-  
+
   def config
     @config ||= YAML.load_file(File.join(GENERATOR_DIR, 'config.yml'))
   end
   module_function :config
-  
+
   class Page
     include Projekttag
-    
+
     attr_reader :current_page
 
     def initialize page
@@ -40,7 +40,7 @@ module Projekttag
       options << " " unless options =~ /^$/
       '<a %shref="%s">%s</a>' % [options, target, anchor]
     end
-    
+
     def current_page? target
       return "active" if current_page == target
     end
@@ -56,17 +56,17 @@ module Projekttag
     def render_content
       render_template(current_page, :markdown => true)
     end
-    
+
     def render
       render_template('partials/main')
     end
-    
+
     def target_file
       File.join(BASE_DIR, "#{current_page}.html")
     end
-    
+
   private
-  
+
     def render_template t, options={}
       options = { :minimize => false, :markdown => false }.merge(options)
       t = template(t)
@@ -75,7 +75,7 @@ module Projekttag
       result.gsub(/^\s+/, '').gsub(/^$/m, '') if options[:minimize]
       result
     end
-  
+
   end # class Page
 end # module Projekttag
 
@@ -90,7 +90,7 @@ desc "Generates all targets, if neccessary."
 task(:build => "config.yml") {
   Dir[File.join(TEMPLATES_DIR, '*.*')].each{|t|
     page = Projekttag::Page.new File.basename(t).gsub(/\..*?$/, '')
-    
+
     if $force || !File.exists?(page.target_file) || File.mtime(t) > File.mtime(page.target_file)
       puts "Generating #{page.target_file} ..."
       File.open(page.target_file, 'w') {|f|
