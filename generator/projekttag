@@ -136,6 +136,7 @@ class Generator < Thor
       modified = !File.exists?(target) || File.mtime(file) > File.mtime(target)
       page.write if options[:force] || modified
     end
+    projectslist
   end
 
   desc "clean", "removes generated files"
@@ -155,7 +156,7 @@ class Generator < Thor
     projects = images.map{|img| File.basename(img, ".*") }
     index = 0
     md_list = projects.map do |project|
-      image = images[index]
+      image = images[index].match(/assets\/.+$/).to_s
       md = "[![#{config_file['menu'][project]}](#{image}){:.logo}](#{project}.html)"
       index += 1
       md
