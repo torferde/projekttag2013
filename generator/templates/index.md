@@ -1,4 +1,4 @@
-## Willkommen zum Projekttag Informatik 2013!
+## Willkommen!
 
 Am 21. Juni ist es wieder so weit: Die [Hauptstudiumsprojekte](projekte.html)
 des Studiengangs Informatik der Universität Bremen stellen im Rahmen des 
