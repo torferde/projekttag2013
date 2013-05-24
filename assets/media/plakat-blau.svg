@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="plakat-blau2012.svg"
-   inkscape:export-filename="/home/dmke/Desktop/PT11/Plakatkonzepte/plakat-blau.png"
-   inkscape:export-xdpi="180"
-   inkscape:export-ydpi="180">
+   inkscape:export-filename="D:/blau.png"
+   inkscape:export-xdpi="1127.5714"
+   inkscape:export-ydpi="1127.5714">
   <defs
      id="defs4">
     <filter
@@ -826,7 +826,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
      inkscape:cx="276.90735"
-     inkscape:cy="88.669401"
+     inkscape:cy="131.09581"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
@@ -861,7 +861,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
       </cc:Work>
@@ -1538,16 +1538,19 @@
        y="240"
        x="190"
        style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Purisa;-inkscape-font-specification:Purisa"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="D:/text4122.png"
+       inkscape:export-xdpi="720"
+       inkscape:export-ydpi="720"><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="240"
          x="190"
          sodipodi:role="line"
          id="tspan3372"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"><tspan
+         dx="0 0 0 0 0 0 0 0 0"><tspan
            style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
            id="tspan4127"
-           dx="0 0 0 0 0 0 1.5303299 0 1.5303299">McChip · ACT · SIL</tspan></tspan><tspan
+           dx="0 0 0 0 0 0 1.5303299 0 1.5303299">McChip · Spartial</tspan></tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="252.136"
          x="190"
@@ -1593,12 +1596,17 @@
          y="324.95206"
          x="190"
          sodipodi:role="line"
-         id="tspan3243">SyncReal</tspan><tspan
+         id="tspan3390">SyncReal · ACT</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="337.08807"
          x="190"
          sodipodi:role="line"
-         id="tspan3390" /></text>
+         id="tspan3330">Noire</tspan><tspan
+         style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         y="349.22409"
+         x="190"
+         sodipodi:role="line"
+         id="tspan3299" /></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:-0.80000001px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Purisa;-inkscape-font-specification:Purisa"

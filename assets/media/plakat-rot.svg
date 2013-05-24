@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="plakat-rot2012.svg"
-   inkscape:export-filename="/home/dmke/Desktop/PT11/Plakatkonzepte/plakat-rot.png"
-   inkscape:export-xdpi="180"
-   inkscape:export-ydpi="180">
+   inkscape:export-filename="D:\Users\Robin\Desktop\rot.png"
+   inkscape:export-xdpi="1127.475"
+   inkscape:export-ydpi="1127.475">
   <defs
      id="defs4">
     <linearGradient
@@ -799,7 +799,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="240.21998"
+     inkscape:cx="144.46998"
      inkscape:cy="95.260528"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
@@ -836,7 +836,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
       </cc:Work>
@@ -1532,61 +1532,51 @@
          y="236.95917"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3372"
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"><tspan
-           style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-           id="tspan4127"
-           dx="0 0 0 0 0 0 1.5303299 0 1.5303299">McChip · ACT · SIL</tspan></tspan><tspan
+         id="tspan3390">McChip · Spartial</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="249.09517"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3378"
-         dx="0 0 0 0 0 0 0 0"><tspan
-           style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-           id="tspan4129"
-           dx="0 0 0 0 0">MOBEV · eStudent</tspan></tspan><tspan
+         id="tspan4077">MOBEV · eStudent</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="261.23117"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3384"
-         dx="0 0 0 0 0 0 0 0"><tspan
-           style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-           id="tspan4131"
-           dx="0 0 0 0 0">AUV10 · movirwelt</tspan></tspan><tspan
+         id="tspan4079">AUV10 · movirwelt</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="273.36719"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3400"><tspan
-           style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-           id="tspan4133"
-           dx="0 0 0 0 0 0 0">B-Human · Chip4U</tspan></tspan><tspan
+         id="tspan4081">B-Human · Chip4U</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="285.5032"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3402">RADAU · SAHARA</tspan><tspan
+         id="tspan4083">RADAU · SAHARA</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="297.63922"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3239">AIDE · Smart Energy</tspan><tspan
+         id="tspan4085">AIDE · Smart Energy</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="309.77521"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3241">GGP++ · VLL2.0</tspan><tspan
+         id="tspan4087">GGP++ · VLL2.0</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="321.91122"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3243">SyncReal</tspan><tspan
+         id="tspan4089">SyncReal · ACT</tspan><tspan
          style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          y="334.04724"
          x="190.19945"
          sodipodi:role="line"
-         id="tspan3390" /></text>
+         id="tspan4091">Noire</tspan><tspan
+         style="font-size:11.3420639px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:107.00000525%;letter-spacing:-1.07000005px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         y="346.18326"
+         x="190.19945"
+         sodipodi:role="line"
+         id="tspan4093" /></text>
   </g>
 </svg>
