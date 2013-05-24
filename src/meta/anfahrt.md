@@ -8,7 +8,6 @@
 </address>
 
 [![OpenStreetMap](assets/img/meta/openstreetmap.png)](http://www.openstreetmap.org/?lat=53.10667&lon=8.85233&zoom=17&layers=O)
-{:.center}
 
 ### Anreise mit dem Auto
 

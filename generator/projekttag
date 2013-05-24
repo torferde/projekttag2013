@@ -157,7 +157,7 @@ class Generator < Thor
     index = 0
     md_list = projects.map do |project|
       image = images[index].match(/assets\/.+$/).to_s
-      md = "[![#{config_file['menu'][project]}](#{image}){:.logo}](#{project}.html)"
+      md = "[![#{config_file['menu'][project]}](#{image})](#{project}.html)"
       index += 1
       md
     end
