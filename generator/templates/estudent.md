@@ -1,4 +1,4 @@
-## estudent
+## eStudent
 
 <p class="logo"><img src="assets/img/estudent.png" /></p>
 
