@@ -1,15 +1,16 @@
 menu:
   apollo13: Apollo 13
-  bass: BASS
   b-human: B-Human
-  fidius: FIDIUS
-  kibo: Kibo
-  qbit: QBit
   radau: RADAU
   sahara: SAHARA
   smart-energy: Smart Energy
   spatial: Spatial
-  virtual-logistic-lab: Virtual Logistic Lab
+  virtual-logistic-lab-2: Virtual Logistic Lab 2.0
+  gplusplus: GGP++
+  estudent: eStudent
+  syncreal: syncReal
+  chip4u: CHIP4U
+  act: ACT
 deploy:
   pull-repo: git@github.com:USER/PROJECT.git # read-only
   push-repo: git://github.com/USER/PROJECT.git # writable
