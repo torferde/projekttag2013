@@ -48,7 +48,7 @@ Projektinhalt sind mobile Zugangssysteme auf Basis der NFC Technik. Dabei geht e
 um die Nutzung von NFC Handys als elektronische Schlüssel für die eigene Haustür,
 Bürogebäude oder das Hotelzimmer. Im ersten Zyklus wird ein Zugangssystem für Gebäude
 der Uni implementiert. Mit einem generischen Vergabe-System für die elektronischen
-Schlüssel, auch andere Anwendungsszenarien gewährleistet.
+Schlüssel sind auch andere Anwendungsszenarien gewährleistet.
 
 ### Campus LBS
 Bei der eStudentLBS-App handelt es sich um eine Android-App, die das Leben der Studenten
@@ -56,7 +56,7 @@ auf dem Campus erleichtern soll. So wollen wir durch die App den Personen auf de
 Campus eine leichtere Orientierung geben. Besonders für Erstsemestler ist es nicht gerade
 einfach sich auf dem Campus und seinen Gebäuden und deren Abkürzungen zurecht zu
 finden. Die Orientierung bietet die App durch eine Kartenansicht auf der sich einige Gebäude
-befinden. Dieses sind zum Beispiel die Mensa, die SUUB, das MZH, Haltestellen der BSAG
+befinden. Dieses sind zum Beispiel die Mensa, die SuUB, das MZH, Haltestellen der BSAG
 und noch einige mehr. Bei der Mensa zeigen wir dem Benutzer das tagesaktuelle Essen an.
 Bei den Haltestellen bekommt der Anwender die Informationen, wann die 5 nächsten Busse
 abfahren. Darüber hinaus gibt es die Möglichkeit die Gebäude, Dienstleistungen etc. nach
