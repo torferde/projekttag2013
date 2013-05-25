@@ -27,9 +27,9 @@ Haltestelle "Universität/Zentralbereich" aus.
 
 ### Anreise mit dem Schiff
 Wenn Sie aus der Nordsee mit dem Schiff anreisen wollen, fahren Sie einfach 
-bei Bremerhaven in die Weser. Danach dem Flu&szlig;verlauf bis zur Lesum folgen und 
+bei Bremerhaven in die Weser. Danach dem Flussverlauf bis zur Lesum folgen und 
 auf diese wechseln. An der Vereinigung mit der Hamme und der W&uuml;mme, der 
-Flu&szlig;verlauf der W&uuml;mme folgen. Dann auf die Munte wechseln und im 
+Flussverlauf der W&uuml;mme folgen. Dann auf die Munte wechseln und im 
 Sichtbereich der Uni einen klugen Anlegeplatz &uuml;berlegen. Danach sind 
 es nur noch ein paar Meter zu Fu&szlig;.
 
