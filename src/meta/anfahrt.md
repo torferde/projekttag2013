@@ -37,4 +37,5 @@ es nur noch ein paar Meter zu Fu&szlig;.
 
 Sollten Sie sich entscheiden mit dem eigenen Raumschiff anzureisen so steht 
 hinter dem Cartesium eine gro&szlig;e Wiese zur Verf&uuml;gung, auf der Sie 
-Ihr Raumschiff parken k&ouml;nnen.
+Ihr Raumschiff parken k&ouml;nnen. Leider wird auf der Wiese neben dem Cartesium 
+momentan gebaut, weswegen Sie beim Landen aufpassen sollten.
