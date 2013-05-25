@@ -38,4 +38,3 @@ der einzelnen Komponenten und somit gut spezifizierte Schnittstellen zwischen
 ihnen sichergestellt werden.
 
 - [Projekt-Webseite](http://spatial.cosy.informatik.uni-bremen.de/)
-- [Stand 2](staende.html)

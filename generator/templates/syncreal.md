@@ -12,5 +12,3 @@ Im Projekt SyncReal wollen wir noch einen Schritt weiter gehen und mehrere intel
 Im Rahmen des Projekts wollen wir untersuchen, welche sonstigen Gegenstände und Aktivitäten überhaupt geeignet scheinen, und dann entsprechende technische Lösungen finden und praktisch umsetzen.
 
 - [Projekt-Webseite](http://syncreal.de)
-- [Stand 11](staende.html)
-- [Vortrag um 13.30 Uhr](ablauf.html)
