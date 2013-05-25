@@ -21,7 +21,7 @@ und im Technologiepark Universität sind ausreichend Parkplätze vorhanden
 
 Sie verlassen Bremen Hbf. Richtung Süden (Stadtmitte). Taxi und Straßenbahn
 fahren direkt vom Bahnhofsvorplatz aus. Für die Weiterfahrt zur Universität
-Bremen mit dem Taxi Zahlen Sie ca. 10€. Günstiger ist es mit der Straßenbahn:
+Bremen mit dem Taxi Zahlen Sie ca. 15€. Günstiger ist es mit der Straßenbahn:
 Sie nehmen die Straßenbahn Linie 6 Richtung Universität und steigen an der
 Haltestelle "Universität/Zentralbereich" aus.
 
