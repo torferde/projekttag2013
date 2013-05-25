@@ -118,7 +118,11 @@ module Projekttag
 end # module Projekttag
 
 class Generator < Thor
-  desc "configure", "copies config.yml" 
+
+  CHMOD_DIRS = 'find -type d -exec chmod a+rx {} \;'
+  CHMOD_FILES = 'find -type f -exec chmod a+r {} \;'
+
+  desc "configure", "copies config.yml"
   def configure
     src = File.join(GENERATOR_DIR, "config.yml.example")
     dest = File.join(GENERATOR_DIR, "config.yml")
@@ -168,10 +172,57 @@ class Generator < Thor
     page.write
   end
 
+  desc "deploy", "deploy to server"
+  option :serverpath,
+          default: nil,
+          desc: "Supply the path to and on server.",
+          aliases: "-s"
+  option :build,
+          type: :boolean,
+          desc: "Ensures a current build, before deploying",
+          aliases: "-b"
+  def deploy
+    serverpath = options[:serverpath]
+    serverpath ||= config_file[:serverpath]
+    die "Couldn't find a server setting" unless serverpath
+    build if options[:build]
+    server = serverpath
+    if serverpath.include?(':')
+      server, path = serverpath.split(':')
+    else
+      serverpath
+    end
+    copy_to serverpath, :files, :assets
+    perform_on server, path, CHMOD_DIRS, CHMOD_FILES
+  end
+
   no_commands do
+
     def config_file
       @@config ||= YAML.load_file(File.join(GENERATOR_DIR, 'config.yml'))
     end
+
+    def copy_to(serverpath, *which_files)
+      cmd = "scp -r "
+      cmd << "#{DEST_DIR}/*.html " if which_files.include?(:files)
+      cmd << "#{ASSETS_DIR} " if which_files.include?(:assets)
+      cmd << serverpath
+      system cmd
+    end
+
+    def perform_on(server, in_path, *commands)
+      cmd = "ssh #{server} \""
+      cmd << "cd #{in_path} && "
+      cmd << commands.join(' && ')
+      cmd << "\""
+      system cmd
+    end
+
+    def die(string)
+      $stderr.puts string
+      exit(1)
+    end
+
   end
 end
 
