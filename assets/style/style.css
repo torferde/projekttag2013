@@ -199,6 +199,10 @@ p.right, p.logo {
   float: right;
 }
 
+article img {
+  margin: 0 0 15px 15px;
+}
+
 p.logo {
   margin: 0 0 15px 15px;
 }
