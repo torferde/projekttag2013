@@ -25,6 +25,7 @@
 
 - Webseite:
   - [Moritz Rudert](https://github.com/mortzu/projekttag2013)
+  - [Tim Reddehase](https://github.com/0robustus1/projekttag2013)
   - (auf Basis der [Projekttagsseite 2011](http://www.informatik.uni-bremen.de/projekttag/2011/) von [Dominik Menke](https://github.com/dmke/pt11web))
 - Plakate: ?
 - Projektlogos: die einzelnen Projekte
