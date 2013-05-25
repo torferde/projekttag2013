@@ -24,7 +24,7 @@ Sie verlassen Bremen Hbf. Richtung Süden (Stadtmitte). Taxi und Straßenbahn
 fahren direkt vom Bahnhofsvorplatz aus. Für die Weiterfahrt zur Universität
 Bremen mit dem Taxi Zahlen Sie ca. 10€. Günstiger ist es mit der Straßenbahn:
 Sie nehmen die Straßenbahn Linie 6 Richtung Universität und steigen an der
-Haltestelle >>Universität/Zentralbereich<< aus.
+Haltestelle "Universität/Zentralbereich" aus.
 
 ### Anreise mit dem Schiff
 Wenn Sie aus der Nordsee mit dem Schiff anreisen wollen, fahren Sie einfach 
