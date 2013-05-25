@@ -121,6 +121,7 @@ class Generator < Thor
 
   CHMOD_DIRS = 'find -type d -exec chmod a+rx {} \;'
   CHMOD_FILES = 'find -type f -exec chmod a+r {} \;'
+  SERVER_CP_CMD = "rsync -rvulthzP"
 
   desc "configure", "copies config.yml"
   def configure
@@ -214,7 +215,7 @@ class Generator < Thor
     end
 
     def copy_to(serverpath, *which_files)
-      cmd = "scp -r "
+      cmd = "#{SERVER_CP_CMD} "
       cmd << "#{DEST_DIR}/*.html " if which_files.include?(:files)
       cmd << "#{ASSETS_DIR} " if which_files.include?(:assets)
       cmd << serverpath
