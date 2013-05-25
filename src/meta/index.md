@@ -12,7 +12,7 @@ der ersten Ebene des MZH präsentieren, an dem es neben Informationen und
 Demonstrationen natürlich auch die Gelegenheit gibt, mit den Studenten ins
 Gespräch zu kommen.
 
-Das Herzstück des Projekttags sind wie immer die [Abschluss-Vorträge](ablauf.html),
+Das Herzstück des Projekttags werden wie immer die [Abschluss-Vorträge](ablauf.html) sein,
 die von den Projekten individuell gestaltet werden und oft mehr Theaterstück
 denn Präsentation sind.
 
