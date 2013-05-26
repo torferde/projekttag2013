@@ -161,6 +161,7 @@ nav ul ul li a {
 article {
   margin: 50px 0 0 250px;
   padding-right: 10%;
+  text-align: justify;
 }
 
 footer {
@@ -203,16 +204,6 @@ article img {
   margin: 0 0 15px 15px;
 }
 
-p.logo {
-  margin: 0 0 15px 15px;
-}
-
-img.logo {
-  vertical-align: middle;
-  margin: 10px;
-}
-
-
 table {
   border-collapse: collapse;
 }
@@ -238,3 +229,6 @@ dt {
   font-weight: bold;
 }
 
+h1, h2, h3, h4 {
+  text-align: left;
+}
