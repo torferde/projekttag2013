@@ -17,13 +17,6 @@ body {
   -ms-box-shadow: 0 0 10px #aaa;
   -o-box-shadow: 0 0 10px #aaa;
   box-shadow: 0 0 10px #aaa;
-}
-
-body.red {
-  background: #fff url(body-bg-red.png) top left no-repeat;
-}
-
-body.blue {
   background: #fff url(body-bg-blue.png) top left no-repeat;
 }
 
@@ -47,8 +40,7 @@ header {
   height: 120px;
 }
 
-body.red header a,
-body.blue header a {
+body header a {
   color: #fff;
 }
 
@@ -64,17 +56,6 @@ header h1 a {
 
 header a span {
   display: none;
-}
-
-header a#color-switch {
-  display: block;
-  background: url(color-switch.png) bottom center no-repeat;
-  width: 20px;
-  height: 10px;
-}
-
-body.blue header a#color-switch {
-  background-position: top center;
 }
 
 header ul {
@@ -94,11 +75,7 @@ a {
   text-decoration: none;
 }
 
-body.red a {
-  color: #A40000;
-}
-
-body.blue a {
+body a {
   color: #2D699A;
 }
 
@@ -113,8 +90,7 @@ nav {
   float: left;
 }
 
-body.red nav a,
-body.blue nav a {
+body nav a {
   display: block;
   position: relative;
   line-height: 27px;
@@ -129,11 +105,7 @@ nav a.active {
   font-weight: bold;
 }
 
-body.red nav a.active {
-  color: #A40000;
-}
-
-body.blue nav a.active {
+body nav a.active {
   color: #2D699A;
 }
 
@@ -183,11 +155,7 @@ img {
   max-width: 100%;
 }
 
-body.red img#staende {
-  background-color: #A40000;
-}
-
-body.blue img#staende {
+body img#staende {
   background-color: #2D699A;
 }
 
