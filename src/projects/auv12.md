@@ -1,4 +1,4 @@
-## AUV 12
+## AUV12
 
 <p class="logo"><img src="assets/img/projects/auv12.png" /></p>
 
