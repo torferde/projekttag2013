@@ -121,7 +121,7 @@ class Generator < Thor
 
   CHMOD_DIRS = 'find -type d -exec chmod a+rx {} \;'
   CHMOD_FILES = 'find -type f -exec chmod a+r {} \;'
-  SERVER_CP_CMD = "rsync -rvulthzP"
+  SERVER_CP_CMD = "rsync -rvulthzP --delete-after"
 
   desc "configure", "copies config.yml"
   def configure
@@ -189,7 +189,7 @@ class Generator < Thor
   def deploy
     spit = ->(text) {puts(text) if options[:verbose]}
     serverpath = options[:serverpath]
-    serverpath ||= config_file[:serverpath]
+    serverpath ||= config_file['serverpath']
     die "Couldn't find a server setting" unless serverpath
     build if options[:build]
     server = serverpath
