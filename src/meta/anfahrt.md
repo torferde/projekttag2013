@@ -7,7 +7,39 @@
   28359 Bremen
 </address>
 
-[![OpenStreetMap](assets/img/meta/openstreetmap.png)](http://www.openstreetmap.org/?lat=53.10667&lon=8.85233&zoom=17&layers=O)
+<style type="text/css">
+ div.olControlAttribution, div.olControlScaleLine {
+  font-family: Verdana;
+  font-size: 0.7em;
+  bottom: 3px;
+}
+
+#basicMap img {
+  max-width: none;
+}
+</style>
+<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<script>
+  window.onload = function(e){
+    map = new OpenLayers.Map("basicMap");
+    map.addLayer(new OpenLayers.Layer.OSM()); 
+    var lonLat = new OpenLayers.LonLat(8.85244,53.106672)
+          .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+          ); 
+    var zoom=17; 
+    var markers = new OpenLayers.Layer.Markers( "MZH" );
+    map.addLayer(markers); 
+    markers.addMarker(new OpenLayers.Marker(lonLat)); 
+    map.setCenter (lonLat, zoom);
+  }
+</script>
+<noscript>
+<a href="http://www.openstreetmap.org/?lat=53.10667&lon=8.85233&zoom=17&layers=O"><img alt="OpenStreetMap" src="assets/img/meta/openstreetmap.png" /></a>
+</noscript>
+
+<div id="basicMap" style="width: 500px; height: 400px;"></div>
 
 ### Anreise mit dem Auto
 
