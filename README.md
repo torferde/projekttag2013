@@ -22,19 +22,18 @@ Nur in aller Kürze:
 - Generieren der Webseite
 
 ```
-~$  git clone https://github.com/mortzu/projekttag2013
-~$  cd projekttag2013/generator
-~/projekttag2013/generator$  rake build
-~/projekttag2013/generator$  open ../index.html
+~$ git clone https://github.com/mortzu/projekttag2013
+~$ cd projekttag2013/generator
+~/projekttag2013/generator$ ./projekttag build
+~/projekttag2013/generator$ open ../dest/index.html
 ```
 
 - Deployment
 
 ```
-~/projekttag2013/generator$  $EDITOR config.yml # setup deploy/push-repo, deploy/pull-repo, deploy/to
-~/projekttag2013/generator$  rake deploy:setup  # initial
-~/projekttag2013/generator$  rake deploy        # subsequently
-~/projekttag2013/generator$  open http://example.com/wohin/config.yml/deploy/to/zeigt
+~/projekttag2013/generator$ $EDITOR config.yml  # setup serverpath
+~/projekttag2013/generator$ ./projekttag deploy
+~/projekttag2013/generator$ open http://example.com/wohin/config.yml/deploy/to/zeigt
 ```
 
 ## Quellcode-Lizenz
@@ -45,7 +44,7 @@ Fonts und die eigentlichen Inhalte.
 ### Generator
 
 Der *Quellcode zum Generieren* (das sind ausschließlich die Dateien `generator/config.yml` und
-`generator/Rakefile`) der Webseiten darf als **gemeinfrei (public domain)** angesehen werden.
+`generator/projekttag`) der Webseiten darf als **gemeinfrei (public domain)** angesehen werden.
 Wesentliche Teile habe ich mir von bekannten Tools wie [nanoc](http://nanoc.stoneship.org/) und
 [Rake](http://rake.rubyforge.org), aber auch [Capistrano](https://github.com/capistrano/capistrano),
 [Ruby on Rails](http://www.rubyonrails.org) und anderen abgesehen.
