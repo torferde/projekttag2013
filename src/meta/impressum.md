@@ -1,6 +1,18 @@
 ## Impressum
 
-### Verantwortlich im Sinne des Presserechts, Ansprechpartner Technik
+### Ansprechpartner Presse
+
+<address>
+  <p>
+    Anneke Bötcher<br />
+    Telefon: 0176 - 70 95 62 38
+  </p>
+  <p>
+    <anneke@informatik.uni-bremen.de>
+  </p>
+</address>
+
+### Ansprechpartner Technik
 
 <address>
   <p>
