@@ -1,5 +1,7 @@
 ## Impossible Worlds
 
+<p class="logo"><img src="assets/img/projects/impossible-worlds.png" /></p>
+
 Unmögliche Welten erschaffen, manipulieren und über die Adaptionsfähigkeit des
 menschlichen Gehirns lernen. So lässt sich wohl am besten zusammenfassen,
 womit sich das einsemestrige Bachelorprojekt Impossible Worlds seit April
