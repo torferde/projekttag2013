@@ -13,6 +13,7 @@ menu:
   piripiri: Piri Piri
   syncreal: SyncReal
   vll2: VLL2.0
+  impossible-worlds: Impossible Worlds
 deploy:
   pull-repo: git@github.com:USER/PROJECT.git # read-only
   push-repo: git://github.com/USER/PROJECT.git # writable
