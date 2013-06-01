@@ -1,5 +1,7 @@
 ## Ablauf
 
+*Vorträge um Senatssaal (MZH 1400)*
+
 <table>
   <thead>
     <tr>
@@ -77,3 +79,4 @@
   </tbody>
 </table>
 
+*Projekstände ab etwa 14:30 im MZH gesamte Ebene 1*
